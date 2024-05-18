@@ -6,6 +6,8 @@ from typing import Any
 
 load_dotenv()
 
+# make sure you set PINBOARD_API_TOKEN environment variable
+
 def pinboard_api(method, **kwargs):
 	"Call the pinboard API and return parsed results from the XML"
 	if 'auth_token' not in kwargs:
