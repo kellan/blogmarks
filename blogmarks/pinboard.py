@@ -16,6 +16,7 @@ def pinboard_api(method, **kwargs):
 	arg_strings = [f'{k}={v}' for k, v in kwargs.items()]
 	args = '?' + '&'.join(arg_strings)
 	url = f'https://api.pinboard.in/v1/{method}{args}'
+	print(url)
 	fp = urllib.request.urlopen(url)
 	dom = xmltodict.parse(fp)
 	return dom
@@ -24,9 +25,25 @@ def iso_to_unix(ts: str):
 	dt = iso8601.parse_date(ts)
 	return int(dt.timestamp())
 
-def fetch_recent() -> list[dict[str, Any]]:
+def newest_time() -> int:
+	dom = pinboard_api('posts/update')
+	return iso_to_unix(dom['update']['@time'])
+
+def fetch_recent(**kwargs) -> list[dict[str, Any]]:
 	"Get the recent.xml from Pinboard"
-	dom = pinboard_api('posts/recent', count=20)
+
+	pb_ts = newest_time()
+	db_ts = db.module().latest_ts() or 0
+	if pb_ts <= db_ts:
+		print(f'No new links. Pinboard: {pb_ts}, DB: {db_ts}')
+		return []
+	
+	if 'count' not in kwargs:
+		kwargs['count'] = 20
+	
+
+	dom = pinboard_api('posts/recent', **kwargs)
+
 	links = []
 	for post in dom['posts']['post']:
 		links.append({
@@ -36,24 +53,13 @@ def fetch_recent() -> list[dict[str, Any]]:
 	return links
 
 
-# def add_recent():
-# 	"Call the Pinboard API and add any recent links"
-# 	# Compare timestamp from Pinboard API to database
-# 	pb_ts = newest_time()
-# 	db_ts = queries.latest_ts()
-# 	if pb_ts <= db_ts:
-# 		print(f'No new links. Pinboard: {pb_ts}, DB: {db_ts}')
-# 		return 3
-# 	recent = get_recent()
-# 	queries.upsert_link(recent)  # type: ignore
-# 	print(f'Added {len(recent)} links from recent')
-# 	return 0
+def add_links(links):
+	for link in links:
+		db.insert_link(link)
 
 def main():
 	links = fetch_recent()
-	print(links)
-	db.insert_link(link)
-
+	add_links(links)
 
 if __name__ == '__main__':
 	main()
