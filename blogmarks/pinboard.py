@@ -3,6 +3,7 @@ import os
 import xmltodict, iso8601, click
 import json, urllib.request, sys
 from typing import Any
+import db
 
 load_dotenv()
 
@@ -23,7 +24,7 @@ def iso_to_unix(ts: str):
 	dt = iso8601.parse_date(ts)
 	return int(dt.timestamp())
 
-def get_recent() -> list[dict[str, Any]]:
+def fetch_recent() -> list[dict[str, Any]]:
 	"Get the recent.xml from Pinboard"
 	dom = pinboard_api('posts/recent', count=20)
 	links = []
@@ -34,22 +35,25 @@ def get_recent() -> list[dict[str, Any]]:
 		})
 	return links
 
-def add_recent():
-	"Call the Pinboard API and add any recent links"
-	# Compare timestamp from Pinboard API to database
-	pb_ts = newest_time()
-	db_ts = queries.latest_ts()
-	if pb_ts <= db_ts:
-		print(f'No new links. Pinboard: {pb_ts}, DB: {db_ts}')
-		return 3
-	recent = get_recent()
-	queries.upsert_link(recent)  # type: ignore
-	print(f'Added {len(recent)} links from recent')
-	return 0
+
+# def add_recent():
+# 	"Call the Pinboard API and add any recent links"
+# 	# Compare timestamp from Pinboard API to database
+# 	pb_ts = newest_time()
+# 	db_ts = queries.latest_ts()
+# 	if pb_ts <= db_ts:
+# 		print(f'No new links. Pinboard: {pb_ts}, DB: {db_ts}')
+# 		return 3
+# 	recent = get_recent()
+# 	queries.upsert_link(recent)  # type: ignore
+# 	print(f'Added {len(recent)} links from recent')
+# 	return 0
 
 def main():
-    links = get_recent()
-    print(links)
+	links = fetch_recent()
+	print(links)
+	db.insert_link(link)
+
 
 if __name__ == '__main__':
 	main()
