@@ -34,6 +34,19 @@ def get_recent() -> list[dict[str, Any]]:
 		})
 	return links
 
+def add_recent():
+	"Call the Pinboard API and add any recent links"
+	# Compare timestamp from Pinboard API to database
+	pb_ts = newest_time()
+	db_ts = queries.latest_ts()
+	if pb_ts <= db_ts:
+		print(f'No new links. Pinboard: {pb_ts}, DB: {db_ts}')
+		return 3
+	recent = get_recent()
+	queries.upsert_link(recent)  # type: ignore
+	print(f'Added {len(recent)} links from recent')
+	return 0
+
 def main():
     links = get_recent()
     print(links)
