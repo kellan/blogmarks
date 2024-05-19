@@ -1,3 +1,10 @@
+-- :name select_recent :many
+select 
+        id, ts, url, description, extended, tags, hash
+from links
+order by ts desc
+limit :count;
+
 -- :name create_links_tables 
 CREATE TABLE IF NOT EXISTS links (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -14,6 +21,9 @@ insert into links
 values
     (:ts, :url, :description, :extended, :tags, :hash)
 on conflict do nothing;
+
+-- :name distinct_year_months :many
+select DISTINCT strftime('%Y-%m', ts, 'unixepoch') as year_month from links;
 
 -- :name latest_ts :scalar
 select max(ts) from links;
