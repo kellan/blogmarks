@@ -14,3 +14,6 @@ insert into links
 values
     (:ts, :url, :description, :extended, :tags, :hash)
 on conflict do nothing;
+
+-- :name latest_ts :scalar
+select max(ts) from links;
