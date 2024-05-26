@@ -1,7 +1,8 @@
 from jinja2 import Environment, FileSystemLoader
 import db
 import datetime 
- 
+import os
+
 file_loader = FileSystemLoader('templates')
 env = Environment(loader=file_loader)
 
@@ -18,6 +19,8 @@ def create_index(count=100, template='page.html'):
         'links': posts
     }
 
+    os.makedirs('_site', exist_ok=True)
+
     with open(f'_site/index.html', 'w') as fp:
         fp.write(render(template, data)) 
     
@@ -33,6 +36,7 @@ def create_archives(template='page.html'):
             'links': posts
         }
 
+        os.makedirs('_site', exist_ok=True)
         with open(f'_site/{year_month["year_month"]}.html', 'w') as fp:
             fp.write(render(template, data)) 
 
@@ -43,6 +47,9 @@ def prepare_posts(links):
         clean_tags = link['tags'].split(' ')
         clean_tags = list(filter(lambda t: t not in ('+', '-'), clean_tags))
         link['clean_tags'] = clean_tags
+        if 'quotable' in clean_tags:
+            link['quotable'] = True
+
         munged_links.append(link)
     
     return munged_links
