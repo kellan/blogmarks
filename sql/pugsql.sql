@@ -16,11 +16,11 @@ CREATE TABLE IF NOT EXISTS links (
     hash TEXT unique)
 
 -- :name upsert_link :insert
-insert into links
+insert or replace into links
     (ts, url, description, extended, tags, hash)
 values
     (:ts, :url, :description, :extended, :tags, :hash)
-on conflict do nothing;
+
 
 -- :name distinct_year_months :many
 select DISTINCT strftime('%Y-%m', ts, 'unixepoch') as year_month from links;
