@@ -1,9 +1,14 @@
 from jinja2 import Environment, FileSystemLoader
 import db
-
+import datetime 
+ 
 file_loader = FileSystemLoader('templates')
 env = Environment(loader=file_loader)
 
+def format_ts(ts, format="%Y-%m-%d"):
+    return datetime.datetime.fromtimestamp(ts).strftime(format)
+
+env.filters["format_ts"] = format_ts
 
 def create_index(count=100, template='page.html'):
     posts = list(db.module().select_recent(count=count))

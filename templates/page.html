@@ -2,7 +2,7 @@
 
 {% for link in links %}
 {% if loop.first %}
-    <h2 class="section-heading">Month: {{ link.ts }}</h2>
+    <h2 class="section-heading">Month: {{ link.ts|format_ts("%B %Y") }}</h2>
 {% endif %}
 <article id="link-{post.hash}">
     <span class="link-title">
@@ -16,7 +16,7 @@
         {{ link.extended | escape }}
     </span>
     {% endif %}
-     <span class="post-date">{{ link.ts }}</span>
+     <span class="post-date">{{ link.ts|format_ts }}</span>
      {% if link.clean_tags %}
 	<span class="tags">{{ link.clean_tags|join(', ') }}</span>
     {% endif %}
