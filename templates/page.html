@@ -3,6 +3,10 @@
 article {
     padding: 10px;
 }
+.post-meta {
+    font-size: 0.9em;
+    font-style: italic; 
+}
 </style>
 <h1 class="page-heading">{{ page.title }}</h1>
 
@@ -24,6 +28,9 @@ article {
         <a class="" href="{{ link.url }}">
                 {{ link.description | escape }}
         </a>
+        {% if link.via %}
+        (<a href="{{ link.via }}" class="via">via</a>)
+        {% endif %}
     </span>
 
 {% else %}
@@ -39,15 +46,18 @@ article {
     <span class="link-description">
         {{ link.extended | escape }}
     </span>
+    {% if link.via %}
+        (<a href="{{ link.via }}" class="via">via</a>)
+    {% endif %}
     {% endif %}
 
 {% endif %}
-
-     <span class="post-date">{{ link.ts|format_ts }}</span>
+<span class="post-meta">
+     (<span class="post-date">{{ link.ts|format_ts }}</span>
 
      {% if link.clean_tags %}
-	<span class="tags">{{ link.clean_tags|join(', ') }}</span>
-    {% endif %}
-    
+	* <span class="tags">{{ link.clean_tags|link_tags(', ') }}</span>
+    {% endif %})
+</span>    
 </article>
 {%- endfor -%}
