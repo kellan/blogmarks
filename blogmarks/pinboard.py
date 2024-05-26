@@ -43,7 +43,6 @@ def fetch_recent(**kwargs) -> list[dict[str, Any]]:
 	
 
 	dom = pinboard_api('posts/recent', **kwargs)
-
 	links = []
 	for post in dom['posts']['post']:
 		links.append({
@@ -58,7 +57,14 @@ def add_links(links):
 		db.insert_link(link)
 
 def main():
-	links = fetch_recent()
+	kwargs = {}
+	if os.getenv("PINBOARD_API_COUNT"):
+		kwargs['count'] = os.getenv("PINBOARD_API_COUNT")
+
+	if os.getenv("PINBOARD_API_TAG"):
+		kwargs['tag'] = os.getenv("PINBOARD_API_TAG")
+
+	links = fetch_recent(**kwargs)
 	add_links(links)
 
 if __name__ == '__main__':
