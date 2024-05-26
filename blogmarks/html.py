@@ -9,7 +9,14 @@ env = Environment(loader=file_loader)
 def format_ts(ts, format="%Y-%m-%d"):
     return datetime.datetime.fromtimestamp(ts).strftime(format)
 
+
+def link_tags(tags, joiner=' '):
+    base_url = 'https://pinboard.in/u:kellan/t:'
+    tag_urls = [f'<a href="{base_url}{tag}">{tag}</a>' for tag in tags]
+    return joiner.join(tag_urls)
+
 env.filters["format_ts"] = format_ts
+env.filters["link_tags"] = link_tags
 
 def create_index(count=100, template='page.html'):
     posts = list(db.module().select_recent(count=count))
@@ -46,7 +53,7 @@ def prepare_posts(links):
     for link in links:
         clean_tags = link['tags'].split(' ')
         clean_tags = list(filter(lambda t: t not in ('+', '-'), clean_tags))
-        link['clean_tags'] = clean_tags
+        link['clean_tags'] = sorted(clean_tags)
         if 'quotable' in clean_tags:
             link['quotable'] = True
 
