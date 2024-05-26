@@ -17,5 +17,9 @@
     </span>
     {% endif %}
      <span class="post-date">{{ link.ts }}</span>
+     {% if link.clean_tags %}
+	<span class="tags">{{ link.clean_tags|join(', ') }}</span>
+    {% endif %}
+    
 </article>
 {%- endfor -%}
