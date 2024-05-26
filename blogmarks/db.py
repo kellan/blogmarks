@@ -12,5 +12,7 @@ def insert_link(link):
     return queries.upsert_link(**link)
 
 if __name__ == '__main__':
-   print("Hello world")
-   queries = module()
+    print("Hello world")
+#    queries = module()
+#    results = list(queries.select_by_year_month(year_month='2024-03'))
+#    print(results)
