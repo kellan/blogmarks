@@ -1,3 +1,9 @@
+<link rel="stylesheet" href="https://laughingmeme.org/assets/main.css">
+<style>
+article {
+    padding: 10px;
+}
+</style>
 <h1 class="page-heading">{{ page.title }}</h1>
 
 {% for link in links %}
@@ -5,6 +11,24 @@
     <h2 class="section-heading">Month: {{ link.ts|format_ts("%B %Y") }}</h2>
 {% endif %}
 <article id="link-{post.hash}">
+
+{% if link.quotable %}
+
+    {% if link.extended %}
+    <span class="link-description">
+        {{ link.extended | escape }}
+    </span>
+        <span class="dash">&mdash;</span> 
+    {% endif %}
+    <span class="link-title">
+        <a class="" href="{{ link.url }}">
+                {{ link.description | escape }}
+        </a>
+    </span>
+
+{% else %}
+
+    
     <span class="link-title">
         <a class="" href="{{ link.url }}">
                 {{ link.description | escape }}
@@ -16,7 +40,11 @@
         {{ link.extended | escape }}
     </span>
     {% endif %}
+
+{% endif %}
+
      <span class="post-date">{{ link.ts|format_ts }}</span>
+
      {% if link.clean_tags %}
 	<span class="tags">{{ link.clean_tags|join(', ') }}</span>
     {% endif %}
