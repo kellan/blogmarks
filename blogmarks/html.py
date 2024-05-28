@@ -9,6 +9,10 @@ env = Environment(loader=file_loader)
 def format_ts(ts, format="%Y-%m-%d"):
     return datetime.datetime.fromtimestamp(ts).strftime(format)
 
+def format_ts_rfc3339(ts):
+    """Format a timestamp as a date suitable for inclusion in Atom feeds."""
+    date = datetime.datetime.fromtimestamp(ts)
+    return date.isoformat() + ("Z" if date.utcoffset() is None else "")
 
 def link_tags(tags, joiner=' '):
     base_url = 'https://pinboard.in/u:kellan/t:'
@@ -17,12 +21,13 @@ def link_tags(tags, joiner=' '):
 
 env.filters["format_ts"] = format_ts
 env.filters["link_tags"] = link_tags
+env.filters["format_ts_rfc3339"] = format_ts_rfc3339
 
 def create_index(count=100, template='page.html'):
     posts = list(db.module().select_recent(count=count))
     posts = prepare_posts(posts)
     data = {
-        'page': {'title': 'Blogmarks'},
+        'page' : {},
         'links': posts
     }
 
@@ -38,8 +43,10 @@ def create_archives(template='page.html'):
 
     for year_month in year_months:
         posts = list(db.module().select_by_year_month(**year_month))
+        posts = prepare_posts(posts)
+        
         data = {
-            'page': {'title': year_month['year_month']},
+            'page': {'title': f'Archive: {year_month["year_month"]}'},
             'links': posts
         }
 
@@ -47,6 +54,20 @@ def create_archives(template='page.html'):
         with open(f'_site/{year_month["year_month"]}.html', 'w') as fp:
             fp.write(render(template, data)) 
 
+def create_feed(count=100):
+    posts = list(db.module().select_recent(count=count))
+    posts = prepare_posts(posts)
+    data = {
+        'links': posts
+    }
+
+    os.makedirs('_site', exist_ok=True)
+
+    template = 'atom.xml'
+
+    with open(f'_site/index.atom', 'w') as fp:
+        fp.write(render(template, data)) 
+    
 
 def prepare_posts(links):
     munged_links = []
@@ -83,6 +104,7 @@ def test():
 def main():
     create_index()
     create_archives()
+    create_feed()
 
 if __name__ == '__main__':
     main()
