@@ -23,7 +23,7 @@ env.filters["format_ts"] = format_ts
 env.filters["link_tags"] = link_tags
 env.filters["format_ts_rfc3339"] = format_ts_rfc3339
 
-def create_index(count=100, template='page.html'):
+def create_index(count=100, template='links.html'):
     posts = list(db.module().select_recent(count=count))
     posts = prepare_posts(posts)
     data = {
@@ -37,7 +37,7 @@ def create_index(count=100, template='page.html'):
         fp.write(render(template, data)) 
     
 
-def create_archives(template='page.html'):
+def create_archives(template='links.html'):
     # fetch all year-month combinations from links
     year_months = db.module().distinct_year_months()
 
