@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="https://laughingmeme.org/links/" />
+  <id>https://laughingmeme.org/links/</id>
+  <title>Kellan Elliott-McCrea&apos;s Linkblog</title>
+  <subtitle>Mindless Link Propagation</subtitle>
+  
+  <author>
+    <name>Kellan Elliott-McCrea</name>
+  </author>
+  
+    {% for link in links %}
+    <entry>
+      {% set summary %}
+        <a href="{{ link.url }}">{{ link.description }}</a> - {{ link.extended }}
+      {% endset %}
+      <title>{{ link.description | escape }}</title>
+      <link href="{{ link.url }}" />
+      <updated>{{ link.ts | format_ts_rfc3339 }}</updated>
+      <id>{{ link.url  }}</id>
+      <summary type="html">{{ summary | escape }}</summary>
+      {% for tag in link.clean_tags %}
+        <category term="{{ tag }}" />
+      {% endfor %}
+    </entry>
+  {% endfor %}
+</feed>
