@@ -2,6 +2,7 @@ from jinja2 import Environment, FileSystemLoader
 import db
 import datetime 
 import os
+import collections
 
 file_loader = FileSystemLoader('templates')
 env = Environment(loader=file_loader)
@@ -37,11 +38,16 @@ def create_index(count=100, template='links.html'):
         fp.write(render(template, data)) 
     
 
-def create_archives(template='links.html'):
+def create_archives():
     # fetch all year-month combinations from links
     year_months = db.module().distinct_year_months()
 
+    archives = collections.defaultdict(list)
+
     for year_month in year_months:
+        (year, month) = year_month["year_month"].split('-')
+        archives[year].append(month)
+
         posts = list(db.module().select_by_year_month(**year_month))
         posts = prepare_posts(posts)
         
@@ -52,7 +58,16 @@ def create_archives(template='links.html'):
 
         os.makedirs('_site', exist_ok=True)
         with open(f'_site/{year_month["year_month"]}.html', 'w') as fp:
-            fp.write(render(template, data)) 
+            fp.write(render('links.html', data)) 
+
+
+    data = {
+        'page': {'title': 'Archive'},
+        'year_months' : archives
+    }
+
+    with open(f"_site/archive.html", 'w') as fp:
+        fp.write(render('archive.html', data))
 
 def create_feed(count=100):
     posts = list(db.module().select_recent(count=count))
