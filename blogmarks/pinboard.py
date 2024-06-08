@@ -66,10 +66,10 @@ def main():
 	if os.getenv("PINBOARD_API_TAG"):
 		kwargs['tag'] = os.getenv("PINBOARD_API_TAG")
 
-	if os.getenv("PINBOARD_API_TOKEN") == '***':
-		print("Token is '***'")
-	else:
-		print("Token is not '***'")
+	# if os.getenv("PINBOARD_API_TOKEN") == '***':
+	# 	print("Token is '***'")
+	# else:
+	# 	print("Token is not '***'")
 
 	links = fetch_recent(**kwargs)
 	add_links(links)
