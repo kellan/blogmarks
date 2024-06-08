@@ -34,8 +34,10 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git checkout -b generated-content
         git add data.db
         git commit -m 'Fetch links from Pinboard'
-        git push
+        git push --force origin generated-content
+
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
