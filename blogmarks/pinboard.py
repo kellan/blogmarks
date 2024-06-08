@@ -13,30 +13,15 @@ def pinboard_api(method, **kwargs):
 	"Call the pinboard API and return parsed results from the XML"
 	if 'auth_token' not in kwargs:
 		kwargs['auth_token'] = os.getenv("PINBOARD_API_TOKEN")
-	print("API TOKEN:", kwargs['auth_token'])
-
-	print("Call some other URL")
-	fp = urllib.request.urlopen("https://kellanem.com")
-	print("Call pinboard URL")
-	fp = urllib.request.urlopen("https://pinboard.in/u:kellan")
 
 	arg_strings = [f'{k}={v}' for k, v in kwargs.items()]
 	args = '?' + '&'.join(arg_strings)
 	url = f'https://api.pinboard.in/v1/{method}{args}'
 	print(url)
-	try:
-		fp = urllib.request.urlopen(url)
-		dom = xmltodict.parse(fp)
-		return dom
-	except urllib.error.HTTPError as e:
-		print(f"HTTPError: {e.code}")
-		print(f"Reason: {e.reason}")
-		print(f"Headers: {e.headers}")
-		print(f"URL: {url}")
-		return None
-	except Exception as e:
-		print(f"An error occurred: {e}")
-		return None
+	
+	fp = urllib.request.urlopen(url)
+	dom = xmltodict.parse(fp)
+	return dom
 
 def iso_to_unix(ts: str):
 	dt = iso8601.parse_date(ts)
@@ -80,11 +65,6 @@ def main():
 
 	if os.getenv("PINBOARD_API_TAG"):
 		kwargs['tag'] = os.getenv("PINBOARD_API_TAG")
-
-	# if os.getenv("PINBOARD_API_TOKEN") == '***':
-	# 	print("Token is '***'")
-	# else:
-	# 	print("Token is not '***'")
 
 	links = fetch_recent(**kwargs)
 	add_links(links)
