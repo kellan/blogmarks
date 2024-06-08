@@ -19,9 +19,19 @@ def pinboard_api(method, **kwargs):
 	args = '?' + '&'.join(arg_strings)
 	url = f'https://api.pinboard.in/v1/{method}{args}'
 	print(url)
-	fp = urllib.request.urlopen(url)
-	dom = xmltodict.parse(fp)
-	return dom
+	try:
+		fp = urllib.request.urlopen(url)
+		dom = xmltodict.parse(fp)
+		return dom
+	except urllib.error.HTTPError as e:
+		print(f"HTTPError: {e.code}")
+		print(f"Reason: {e.reason}")
+		print(f"Headers: {e.headers}")
+		print(f"URL: {url}")
+		return None
+	except Exception as e:
+		print(f"An error occurred: {e}")
+		return None
 
 def iso_to_unix(ts: str):
 	dt = iso8601.parse_date(ts)
