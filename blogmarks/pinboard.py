@@ -15,6 +15,11 @@ def pinboard_api(method, **kwargs):
 		kwargs['auth_token'] = os.getenv("PINBOARD_API_TOKEN")
 	print("API TOKEN:", kwargs['auth_token'])
 
+	print("Call some other URL")
+	fp = urllib.request.urlopen("https://kellanem.com")
+	print("Call pinboard URL")
+	fp = urllib.request.urlopen("https://pinboard.in/u:kellan")
+
 	arg_strings = [f'{k}={v}' for k, v in kwargs.items()]
 	args = '?' + '&'.join(arg_strings)
 	url = f'https://api.pinboard.in/v1/{method}{args}'
