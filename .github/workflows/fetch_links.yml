@@ -29,6 +29,9 @@ jobs:
       run: python blogmarks/pinboard.py
       env:
         PINBOARD_API_TOKEN: ${{ secrets.PINBOARD_API_TOKEN }}
+    
+    - name: Check for changes
+      run: git status
 
     - name: Commit changes
       run: |
