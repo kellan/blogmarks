@@ -14,7 +14,7 @@ def pinboard_api(method, **kwargs):
 	if 'auth_token' not in kwargs:
 		kwargs['auth_token'] = os.getenv("PINBOARD_API_TOKEN")
 	print("API TOKEN:", kwargs['auth_token'])
-	
+
 	arg_strings = [f'{k}={v}' for k, v in kwargs.items()]
 	args = '?' + '&'.join(arg_strings)
 	url = f'https://api.pinboard.in/v1/{method}{args}'
@@ -65,6 +65,11 @@ def main():
 
 	if os.getenv("PINBOARD_API_TAG"):
 		kwargs['tag'] = os.getenv("PINBOARD_API_TAG")
+
+	if os.getenv("PINBOARD_API_TOKEN") == '***':
+		print("Token is '***'")
+	else:
+		print("Token is not '***'")
 
 	links = fetch_recent(**kwargs)
 	add_links(links)
