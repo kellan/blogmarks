@@ -26,7 +26,10 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run fetch script
-      run: python blogmarks/pinboard.py
+      run: |
+        python blogmarks/pinboard.py
+        git status
+        git diff
       env:
         PINBOARD_API_TOKEN: ${{ secrets.PINBOARD_API_TOKEN }}
     
