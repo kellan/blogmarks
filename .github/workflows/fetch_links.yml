@@ -26,7 +26,9 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run fetch script
-      run: python blogmarks/pinboard.py
+      run: 
+        echo "PINBOARD_API_TOKEN: ${{ secrets.PINBOARD_API_TOKEN }}"
+        python blogmarks/pinboard.py
       env:
         PINBOARD_API_TOKEN: ${{ secrets.PINBOARD_API_TOKEN }}
 
