@@ -13,6 +13,8 @@ def pinboard_api(method, **kwargs):
 	"Call the pinboard API and return parsed results from the XML"
 	if 'auth_token' not in kwargs:
 		kwargs['auth_token'] = os.getenv("PINBOARD_API_TOKEN")
+	print("API TOKEN:", kwargs['auth_token'])
+	
 	arg_strings = [f'{k}={v}' for k, v in kwargs.items()]
 	args = '?' + '&'.join(arg_strings)
 	url = f'https://api.pinboard.in/v1/{method}{args}'
