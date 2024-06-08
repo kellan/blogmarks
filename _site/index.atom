@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="https://laughingmeme.org/links/" />
+  <id>https://laughingmeme.org/links/</id>
+  <title>Kellan Elliott-McCrea&apos;s Linkblog</title>
+  <subtitle>Mindless Link Propagation</subtitle>
+  
+  <author>
+    <name>Kellan Elliott-McCrea</name>
+  </author>
+  
+    
+    <entry>
+      
+      <title>Voynich manuscript - an illustrated codex hand-written in an unknown script by an unknown author</title>
+      <link href="https://en.wikipedia.org/wiki/Voynich_manuscript" />
+      <updated>2024-06-08T19:59:57Z</updated>
+      <id>https://en.wikipedia.org/wiki/Voynich_manuscript</id>
+      <summary type="html">
+        &lt;a href=&#34;https://en.wikipedia.org/wiki/Voynich_manuscript&#34;&gt;Voynich manuscript - an illustrated codex hand-written in an unknown script by an unknown author&lt;/a&gt; - I&#39;m going to be honest, I just learned about this using Simon&#39;s &#34;fascinate me&#34; prompt to make sure I had `llm` installed correctly.
+      </summary>
+      
+        <category term="article" />
+      
+        <category term="cryptography" />
+      
+        <category term="history" />
+      
+        <category term="llm" />
+      
+        <category term="mlp" />
+      
+        <category term="wikipedia" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>[no title]</title>
+      <link href="https://youtube.com/@amillison?si=2yoo5t8VK7wthUrN" />
+      <updated>2024-05-27T22:27:20Z</updated>
+      <id>https://youtube.com/@amillison?si=2yoo5t8VK7wthUrN</id>
+      <summary type="html">
+        &lt;a href=&#34;https://youtube.com/@amillison?si=2yoo5t8VK7wthUrN&#34;&gt;[no title]&lt;/a&gt; - 
+      </summary>
+      
+        <category term="climate" />
+      
+        <category term="journalism" />
+      
+        <category term="permaculture" />
+      
+        <category term="videos" />
+      
+        <category term="water" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>The world’s last internet cafes - Rest of World</title>
+      <link href="https://restofworld.org/2023/internet-cafes/" />
+      <updated>2024-05-27T20:40:50Z</updated>
+      <id>https://restofworld.org/2023/internet-cafes/</id>
+      <summary type="html">
+        &lt;a href=&#34;https://restofworld.org/2023/internet-cafes/&#34;&gt;The world’s last internet cafes - Rest of World&lt;/a&gt; - 
+      </summary>
+      
+        <category term="via:kevincollins" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>Minimal valid Atom feed</title>
+      <link href="https://www.rfc-editor.org/rfc/rfc4287#section-1.1" />
+      <updated>2024-05-27T17:43:21Z</updated>
+      <id>https://www.rfc-editor.org/rfc/rfc4287#section-1.1</id>
+      <summary type="html">
+        &lt;a href=&#34;https://www.rfc-editor.org/rfc/rfc4287#section-1.1&#34;&gt;Minimal valid Atom feed&lt;/a&gt; - 
+      </summary>
+      
+        <category term="atom" />
+      
+        <category term="syndication" />
+      
+        <category term="xml" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>Battery Powered Food Trucks - Joule Case</title>
+      <link href="https://www.joulecase.com/industries/food-trucks" />
+      <updated>2024-05-22T10:15:18Z</updated>
+      <id>https://www.joulecase.com/industries/food-trucks</id>
+      <summary type="html">
+        &lt;a href=&#34;https://www.joulecase.com/industries/food-trucks&#34;&gt;Battery Powered Food Trucks - Joule Case&lt;/a&gt; - Electrify
+      </summary>
+      
+        <category term="" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>Nvidia’s rivals take aim at its software dominance</title>
+      <link href="https://www.ft.com/content/320f35de-9a6c-4dbf-b42f-9cdaf35e45bb" />
+      <updated>2024-05-22T00:21:28Z</updated>
+      <id>https://www.ft.com/content/320f35de-9a6c-4dbf-b42f-9cdaf35e45bb</id>
+      <summary type="html">
+        &lt;a href=&#34;https://www.ft.com/content/320f35de-9a6c-4dbf-b42f-9cdaf35e45bb&#34;&gt;Nvidia’s rivals take aim at its software dominance&lt;/a&gt; - 
+      </summary>
+      
+        <category term="ai" />
+      
+        <category term="chips" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>ASML and TSMC Can Disable Chip Machines If China Invades Taiwan</title>
+      <link href="https://www.bloomberg.com/news/articles/2024-05-21/asml-tsmc-can-disable-chip-machines-if-china-invades-taiwan" />
+      <updated>2024-05-22T00:20:08Z</updated>
+      <id>https://www.bloomberg.com/news/articles/2024-05-21/asml-tsmc-can-disable-chip-machines-if-china-invades-taiwan</id>
+      <summary type="html">
+        &lt;a href=&#34;https://www.bloomberg.com/news/articles/2024-05-21/asml-tsmc-can-disable-chip-machines-if-china-invades-taiwan&#34;&gt;ASML and TSMC Can Disable Chip Machines If China Invades Taiwan&lt;/a&gt; - That’s a peak 2024 headline if you ever needed one.
+      </summary>
+      
+        <category term="china" />
+      
+        <category term="chips" />
+      
+        <category term="mlp" />
+      
+        <category term="taiwan" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>Pinboard API (v1) Documentation</title>
+      <link href="https://pinboard.in/api/" />
+      <updated>2024-05-19T17:15:34Z</updated>
+      <id>https://pinboard.in/api/</id>
+      <summary type="html">
+        &lt;a href=&#34;https://pinboard.in/api/&#34;&gt;Pinboard API (v1) Documentation&lt;/a&gt; - 
+      </summary>
+      
+        <category term="api" />
+      
+        <category term="pinboard" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>Timelapse video of construction of &#34;artificial energy island&#34; being built [video]</title>
+      <link href="https://electrek.co/2024/04/25/watch-the-worlds-first-artificial-energy-island-being-built-video/" />
+      <updated>2024-05-18T19:41:54Z</updated>
+      <id>https://electrek.co/2024/04/25/watch-the-worlds-first-artificial-energy-island-being-built-video/</id>
+      <summary type="html">
+        &lt;a href=&#34;https://electrek.co/2024/04/25/watch-the-worlds-first-artificial-energy-island-being-built-video/&#34;&gt;Timelapse video of construction of &#34;artificial energy island&#34; being built [video]&lt;/a&gt; - &#34;an electricity grid at sea that will connect offshore wind farms to the Belgian mainland and also serve as a hub for future interconnectors with the UK and Denmark&#34;
+      </summary>
+      
+        <category term="climate" />
+      
+        <category term="energy" />
+      
+        <category term="europe" />
+      
+        <category term="timelapse" />
+      
+        <category term="video" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>Maneki Neko - Lightspeed Magazine</title>
+      <link href="https://www.lightspeedmagazine.com/fiction/maneki-neko/" />
+      <updated>2024-05-18T00:24:41Z</updated>
+      <id>https://www.lightspeedmagazine.com/fiction/maneki-neko/</id>
+      <summary type="html">
+        &lt;a href=&#34;https://www.lightspeedmagazine.com/fiction/maneki-neko/&#34;&gt;Maneki Neko - Lightspeed Magazine&lt;/a&gt; - 
+      </summary>
+      
+        <category term="bruce-sterling" />
+      
+        <category term="fiction" />
+      
+        <category term="future" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>Clustering ideas with Llamafile</title>
+      <link href="https://blog.lmorchard.com/2024/05/10/topic-clustering-llamafile/" />
+      <updated>2024-05-13T01:32:49Z</updated>
+      <id>https://blog.lmorchard.com/2024/05/10/topic-clustering-llamafile/</id>
+      <summary type="html">
+        &lt;a href=&#34;https://blog.lmorchard.com/2024/05/10/topic-clustering-llamafile/&#34;&gt;Clustering ideas with Llamafile&lt;/a&gt; - TL;DR: In my previous post, I used local models with PyTorch and Sentence Transformers to roughly cluster ideas by named topic. In this post, I&#39;ll try that again, but this time with Llamafile.
+      </summary>
+      
+        <category term="ai" />
+      
+        <category term="llamafile" />
+      
+        <category term="llm" />
+      
+        <category term="lmorchard" />
+      
+        <category term="mlp" />
+      
+        <category term="quotable" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>[no title]</title>
+      <link href="https://energymixweekender.substack.com/p/hopeless-broken-climate-scientists" />
+      <updated>2024-05-13T00:52:15Z</updated>
+      <id>https://energymixweekender.substack.com/p/hopeless-broken-climate-scientists</id>
+      <summary type="html">
+        &lt;a href=&#34;https://energymixweekender.substack.com/p/hopeless-broken-climate-scientists&#34;&gt;[no title]&lt;/a&gt; - 
+      </summary>
+      
+        <category term="climate" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>GraphRAG (Graphs + Retrieval Augmented Generation)</title>
+      <link href="https://www.microsoft.com/en-us/research/project/graphrag/" />
+      <updated>2024-05-11T19:14:36Z</updated>
+      <id>https://www.microsoft.com/en-us/research/project/graphrag/</id>
+      <summary type="html">
+        &lt;a href=&#34;https://www.microsoft.com/en-us/research/project/graphrag/&#34;&gt;GraphRAG (Graphs + Retrieval Augmented Generation)&lt;/a&gt; - RAG fails on global questions directed at an entire text corpus, such as “What are the main themes in the dataset?”, since this is inherently a query-focused summarization (QFS) task, rather than an explicit retrieval task. ... Our approach uses an LLM to build a graph-based text index in two stages: first to derive an entity knowledge graph from the source documents, then to pregenerate community summaries for all groups of closely-related entities. Given a question, each community summary is used to generate a partial response, before all partial responses are again summarized in a final response to the user.  
+      </summary>
+      
+        <category term="ai" />
+      
+        <category term="microsoft" />
+      
+        <category term="mlp" />
+      
+        <category term="paper" />
+      
+        <category term="python" />
+      
+        <category term="quotable" />
+      
+        <category term="rag" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>Ultrasonic Cold Brew Coffee Brewed in 3 Minutes - Boing Boing</title>
+      <link href="https://boingboing.net/2024/05/07/engineers-use-ultrasonic-reactor-to-make-cold-brew-coffee-in-under-3-minutes.html" />
+      <updated>2024-05-08T10:55:11Z</updated>
+      <id>https://boingboing.net/2024/05/07/engineers-use-ultrasonic-reactor-to-make-cold-brew-coffee-in-under-3-minutes.html</id>
+      <summary type="html">
+        &lt;a href=&#34;https://boingboing.net/2024/05/07/engineers-use-ultrasonic-reactor-to-make-cold-brew-coffee-in-under-3-minutes.html&#34;&gt;Ultrasonic Cold Brew Coffee Brewed in 3 Minutes - Boing Boing&lt;/a&gt; - 
+      </summary>
+      
+        <category term="" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>Base Power Company - Not Boring by Packy McCormick</title>
+      <link href="https://www.notboring.co/p/base-power-company" />
+      <updated>2024-05-08T10:54:20Z</updated>
+      <id>https://www.notboring.co/p/base-power-company</id>
+      <summary type="html">
+        &lt;a href=&#34;https://www.notboring.co/p/base-power-company&#34;&gt;Base Power Company - Not Boring by Packy McCormick&lt;/a&gt; - 
+      </summary>
+      
+        <category term="" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>Turning AirPods into a Push-up Tracker</title>
+      <link href="https://richarddas.com/blog/turning-airpods-into-fitness-trackers-to-fight-cancer/" />
+      <updated>2024-05-06T11:45:17Z</updated>
+      <id>https://richarddas.com/blog/turning-airpods-into-fitness-trackers-to-fight-cancer/</id>
+      <summary type="html">
+        &lt;a href=&#34;https://richarddas.com/blog/turning-airpods-into-fitness-trackers-to-fight-cancer/&#34;&gt;Turning AirPods into a Push-up Tracker&lt;/a&gt; - 
+      </summary>
+      
+        <category term="ios" />
+      
+        <category term="swift" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>A Company Is Building a Giant Compressed-Air Battery in the Australian Outback | WIRED</title>
+      <link href="https://www.wired.com/story/hydrostor-compressed-air-battery-california-australia-energy-climate/" />
+      <updated>2024-05-06T11:37:18Z</updated>
+      <id>https://www.wired.com/story/hydrostor-compressed-air-battery-california-australia-energy-climate/</id>
+      <summary type="html">
+        &lt;a href=&#34;https://www.wired.com/story/hydrostor-compressed-air-battery-california-australia-energy-climate/&#34;&gt;A Company Is Building a Giant Compressed-Air Battery in the Australian Outback | WIRED&lt;/a&gt; - 
+      </summary>
+      
+        <category term="battery" />
+      
+        <category term="via:HackerNews" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>How LLMs Work, Explained Without Math - miguelgrinberg.com</title>
+      <link href="https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math" />
+      <updated>2024-05-06T11:36:38Z</updated>
+      <id>https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math</id>
+      <summary type="html">
+        &lt;a href=&#34;https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math&#34;&gt;How LLMs Work, Explained Without Math - miguelgrinberg.com&lt;/a&gt; - 
+      </summary>
+      
+        <category term="ai" />
+      
+        <category term="llm" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>GitHub - alessiodm/drl-zh: Deep Reinforcement Learning: Zero to Hero!</title>
+      <link href="https://github.com/alessiodm/drl-zh" />
+      <updated>2024-05-06T11:36:17Z</updated>
+      <id>https://github.com/alessiodm/drl-zh</id>
+      <summary type="html">
+        &lt;a href=&#34;https://github.com/alessiodm/drl-zh&#34;&gt;GitHub - alessiodm/drl-zh: Deep Reinforcement Learning: Zero to Hero!&lt;/a&gt; - 
+      </summary>
+      
+        <category term="ai" />
+      
+        <category term="learn" />
+      
+        <category term="reinforcement" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>Remnants of a Legendary Typeface Have Been Rescued From the River Thames</title>
+      <link href="https://news.artnet.com/art-world/doves-typeface-2454807" />
+      <updated>2024-05-06T11:35:40Z</updated>
+      <id>https://news.artnet.com/art-world/doves-typeface-2454807</id>
+      <summary type="html">
+        &lt;a href=&#34;https://news.artnet.com/art-world/doves-typeface-2454807&#34;&gt;Remnants of a Legendary Typeface Have Been Rescued From the River Thames&lt;/a&gt; - 
+      </summary>
+      
+        <category term="history" />
+      
+        <category term="typography" />
+      
+        <category term="via:HackerNews" />
+      
+    </entry>
+  
+</feed>
