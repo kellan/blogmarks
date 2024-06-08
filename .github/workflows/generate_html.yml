@@ -31,7 +31,7 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add _site/
-        if ! git diff-index --quiet HEAD --; then
+        if git diff-index --quiet HEAD --; then
           git commit -m 'Generate HTML files'
           git push
         else
