@@ -85,7 +85,7 @@ def munge_link(link):
 		link['ts'] = datetime.datetime.strptime(date_tag[5:], "%Y-%m-%d").timestamp()
 		tags.remove(date_tag)
 	link['tags'] = ' '.join(tags)
-	print(link)
+	
 	return link
 
 def main():
