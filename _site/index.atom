@@ -12,12 +12,94 @@
     
     <entry>
       
+      <title>Postmarks - a single-user bookmarking website designed to be easily hosted on Glitch</title>
+      <link href="https://casey.kolderup.org/notes/edf3a659f52528da103ea4dcbb09f66f.html" />
+      <updated>2024-06-09T13:26:05Z</updated>
+      <id>https://casey.kolderup.org/notes/edf3a659f52528da103ea4dcbb09f66f.html</id>
+      <summary type="html">
+        
+          &lt;a href=&#34;https://casey.kolderup.org/notes/edf3a659f52528da103ea4dcbb09f66f.html&#34;&gt;Postmarks - a single-user bookmarking website designed to be easily hosted on Glitch&lt;/a&gt; - Going to look at this as an approach to adding ActivityPub support to MLP. But also looks like a good option if you don&#39;t need to indulge in the quixotic undertaking of writing your own. 
+        
+      </summary>
+      
+        <category term="activitypub" />
+      
+        <category term="mlp" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>Canopée: the sailing ship for Ariane 6 transport</title>
+      <link href="https://www.ariane.group/en/news/ariane-6-cargo-ship-canopee-spreads-its-wings/" />
+      <updated>2024-06-09T13:18:24Z</updated>
+      <id>https://www.ariane.group/en/news/ariane-6-cargo-ship-canopee-spreads-its-wings/</id>
+      <summary type="html">
+        
+          &lt;a href=&#34;https://www.ariane.group/en/news/ariane-6-cargo-ship-canopee-spreads-its-wings/&#34;&gt;Canopée: the sailing ship for Ariane 6 transport&lt;/a&gt; - Hybrid wind and diesel cargo ship -- something folks have talked about but Canopée is operating today.
+        
+      </summary>
+      
+        <category term="climate-hope" />
+      
+        <category term="mlp" />
+      
+        <category term="transportation" />
+      
+        <category term="wind" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>Save congestion pricing!</title>
+      <link href="https://savecongestionpricing.org/" />
+      <updated>2024-06-09T13:09:02Z</updated>
+      <id>https://savecongestionpricing.org/</id>
+      <summary type="html">
+        
+          &lt;a href=&#34;https://savecongestionpricing.org/&#34;&gt;Save congestion pricing!&lt;/a&gt; - Fights not won and not lost, more work todo. And thank you for everyone who has already acted to make NYC safer, healthier and more sustainable.
+        
+      </summary>
+      
+        <category term="activism" />
+      
+        <category term="climate-hope" />
+      
+        <category term="mlp" />
+      
+        <category term="nyc" />
+      
+    </entry>
+  
+    <entry>
+      
+      <title>A Link Blog in the Year 2024</title>
+      <link href="https://laughingmeme.org/2024/06/08/a-link-blog-in-2024.html" />
+      <updated>2024-06-09T00:00:00Z</updated>
+      <id>https://laughingmeme.org/2024/06/08/a-link-blog-in-2024.html</id>
+      <summary type="html">
+        
+          &lt;a href=&#34;https://laughingmeme.org/2024/06/08/a-link-blog-in-2024.html&#34;&gt;A Link Blog in the Year 2024&lt;/a&gt; - Thoughts on starting a link blog in 2024.
+        
+      </summary>
+      
+        <category term="meta" />
+      
+        <category term="mlp" />
+      
+    </entry>
+  
+    <entry>
+      
       <title>Voynich manuscript - an illustrated codex hand-written in an unknown script by an unknown author</title>
       <link href="https://en.wikipedia.org/wiki/Voynich_manuscript" />
       <updated>2024-06-08T19:59:57Z</updated>
       <id>https://en.wikipedia.org/wiki/Voynich_manuscript</id>
       <summary type="html">
-        &lt;a href=&#34;https://en.wikipedia.org/wiki/Voynich_manuscript&#34;&gt;Voynich manuscript - an illustrated codex hand-written in an unknown script by an unknown author&lt;/a&gt; - I&#39;m going to be honest, I just learned about this using Simon&#39;s &#34;fascinate me&#34; prompt to make sure I had `llm` installed correctly.
+        
+          &lt;a href=&#34;https://en.wikipedia.org/wiki/Voynich_manuscript&#34;&gt;Voynich manuscript - an illustrated codex hand-written in an unknown script by an unknown author&lt;/a&gt; - I&#39;m going to be honest, I just learned about this using Simon&#39;s &#34;fascinate me&#34; prompt to make sure I had `llm` installed correctly.
+        
       </summary>
       
         <category term="article" />
@@ -41,7 +123,9 @@
       <updated>2024-05-22T00:20:08Z</updated>
       <id>https://www.bloomberg.com/news/articles/2024-05-21/asml-tsmc-can-disable-chip-machines-if-china-invades-taiwan</id>
       <summary type="html">
-        &lt;a href=&#34;https://www.bloomberg.com/news/articles/2024-05-21/asml-tsmc-can-disable-chip-machines-if-china-invades-taiwan&#34;&gt;ASML and TSMC Can Disable Chip Machines If China Invades Taiwan&lt;/a&gt; - That’s a peak 2024 headline if you ever needed one.
+        
+          &lt;a href=&#34;https://www.bloomberg.com/news/articles/2024-05-21/asml-tsmc-can-disable-chip-machines-if-china-invades-taiwan&#34;&gt;ASML and TSMC Can Disable Chip Machines If China Invades Taiwan&lt;/a&gt; - That’s a peak 2024 headline if you ever needed one.
+        
       </summary>
       
         <category term="china" />
@@ -61,7 +145,11 @@
       <updated>2024-05-13T01:32:49Z</updated>
       <id>https://blog.lmorchard.com/2024/05/10/topic-clustering-llamafile/</id>
       <summary type="html">
-        &lt;a href=&#34;https://blog.lmorchard.com/2024/05/10/topic-clustering-llamafile/&#34;&gt;Clustering ideas with Llamafile&lt;/a&gt; - TL;DR: In my previous post, I used local models with PyTorch and Sentence Transformers to roughly cluster ideas by named topic. In this post, I&#39;ll try that again, but this time with Llamafile.
+        
+          &lt;q&gt;TL;DR: In my previous post, I used local models with PyTorch and Sentence Transformers to roughly cluster ideas by named topic. In this post, I&amp;#39;ll try that again, but this time with Llamafile.&lt;/q&gt;
+          &lt;span class=&#34;dash&#34;&gt;&amp;mdash;&lt;/span&gt;
+          &lt;cite&gt; &lt;a class=&#34;&#34; href=&#34;https://blog.lmorchard.com/2024/05/10/topic-clustering-llamafile/&#34;&gt;Clustering ideas with Llamafile&lt;/a&gt;&lt;/cite&gt;
+        
       </summary>
       
         <category term="ai" />
@@ -85,7 +173,11 @@
       <updated>2024-05-11T19:14:36Z</updated>
       <id>https://www.microsoft.com/en-us/research/project/graphrag/</id>
       <summary type="html">
-        &lt;a href=&#34;https://www.microsoft.com/en-us/research/project/graphrag/&#34;&gt;GraphRAG (Graphs + Retrieval Augmented Generation)&lt;/a&gt; - RAG fails on global questions directed at an entire text corpus, such as “What are the main themes in the dataset?”, since this is inherently a query-focused summarization (QFS) task, rather than an explicit retrieval task. ... Our approach uses an LLM to build a graph-based text index in two stages: first to derive an entity knowledge graph from the source documents, then to pregenerate community summaries for all groups of closely-related entities. Given a question, each community summary is used to generate a partial response, before all partial responses are again summarized in a final response to the user.  
+        
+          &lt;q&gt;RAG fails on global questions directed at an entire text corpus, such as “What are the main themes in the dataset?”, since this is inherently a query-focused summarization (QFS) task, rather than an explicit retrieval task. ... Our approach uses an LLM to build a graph-based text index in two stages: first to derive an entity knowledge graph from the source documents, then to pregenerate community summaries for all groups of closely-related entities. Given a question, each community summary is used to generate a partial response, before all partial responses are again summarized in a final response to the user.  &lt;/q&gt;
+          &lt;span class=&#34;dash&#34;&gt;&amp;mdash;&lt;/span&gt;
+          &lt;cite&gt; &lt;a class=&#34;&#34; href=&#34;https://www.microsoft.com/en-us/research/project/graphrag/&#34;&gt;GraphRAG (Graphs + Retrieval Augmented Generation)&lt;/a&gt;&lt;/cite&gt;
+        
       </summary>
       
         <category term="ai" />
