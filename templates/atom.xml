@@ -12,7 +12,13 @@
     {% for link in links %}
     <entry>
       {% set summary %}
-        <a href="{{ link.url }}">{{ link.description }}</a> - {{ link.extended }}
+        {% if link.quotable %}
+          <q>{{ link.extended | escape }}</q>
+          <span class="dash">&mdash;</span>
+          <cite> <a class="" href="{{ link.url }}">{{ link.description | escape }}</a></cite>
+        {% else %}
+          <a href="{{ link.url }}">{{ link.description }}</a> - {{ link.extended }}
+        {% endif %}
       {% endset %}
       <title>{{ link.description | escape }}</title>
       <link href="{{ link.url }}" />
