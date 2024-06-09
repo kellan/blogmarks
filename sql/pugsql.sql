@@ -1,6 +1,6 @@
 -- :name select_recent :many
 select 
-        id, ts, url, description, extended, tags, hash
+        id, ts, url, description, extended, via, tags, hash
 from links
 order by ts desc
 limit :count;
@@ -12,6 +12,7 @@ create table if not exists links (
     url text,
     description text,
     extended text,
+    via text,
     tags text,  -- space delimited
     hash text unique)
 

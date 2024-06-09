@@ -4,6 +4,7 @@ import xmltodict, iso8601, click
 import json, urllib.request, sys
 from typing import Any
 import db
+import datetime
 
 load_dotenv()
 
@@ -55,8 +56,37 @@ def fetch_recent(**kwargs) -> list[dict[str, Any]]:
 
 
 def add_links(links):
+	now = datetime.datetime.now().timestamp()
 	for link in links:
+		link = munge_link(link)
+
+		if link['ts'] > now:
+			print(f"Skipping future link: {link['url']}")
+			continue
+
 		db.insert_link(link)
+
+def munge_link(link):
+	date_tag = None
+	via_tag = None
+
+	tags = link['tags'].split(' ')
+	for tag in tags:
+		if tag.startswith("date:"):
+			date_tag = tag
+		elif tag.startswith("via:"):
+			via_tag = tag
+
+	if via_tag:
+		link['via'] = via_tag[4:]
+		tags.remove(via_tag)
+
+	if date_tag:
+		link['ts'] = datetime.datetime.strptime(date_tag[5:], "%Y-%m-%d").timestamp()
+		tags.remove(date_tag)
+	link['tags'] = ' '.join(tags)
+	print(link)
+	return link
 
 def main():
 	kwargs = {}
