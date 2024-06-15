@@ -3,8 +3,6 @@ import db
 import datetime 
 import os
 import collections
-import html
-import mistune
 
 file_loader = FileSystemLoader('templates')
 env = Environment(loader=file_loader)
@@ -95,9 +93,8 @@ def prepare_posts(links):
         if 'quotable' in clean_tags:
             link['quotable'] = True
 
-        markdown = mistune.create_markdown()
-
-        link['extended'] = markdown(link['extended'])
+        #markdown = mistune.create_markdown()
+        #link['extended'] = markdown(link['extended'])
 
         munged_links.append(link)
     
