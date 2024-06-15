@@ -10,6 +10,8 @@
   </author>
   
     {% for link in links %}
+    <title>{{ link.description | escape }}</title>
+    <link href="{{ link.url }}" />
     <entry>
       {% set summary %}
         {% if link.quotable %}
@@ -17,11 +19,9 @@
           <span class="dash">&mdash;</span>
           <cite> <a class="" href="{{ link.url }}">{{ link.description | escape }}</a></cite>
         {% else %}
-          <a href="{{ link.url }}">{{ link.description }}</a> - {{ link.extended }}
+          {{ link.extended }}
         {% endif %}
       {% endset %}
-      <title>{{ link.description | escape }}</title>
-      <link href="{{ link.url }}" />
       <updated>{{ link.ts | format_ts_rfc3339 }}</updated>
       <id>{{ link.url  }}</id>
       <summary type="html">{{ summary | escape }}</summary>
