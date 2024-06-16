@@ -10,9 +10,10 @@
   </author>
   
     {% for link in links %}
+    
+    <entry>
     <title>{{ link.description | escape }}</title>
     <link href="{{ link.url }}" />
-    <entry>
       {% set summary %}
         {% if link.quotable %}
           <q>{{ link.extended | escape }}</q>
