@@ -12,6 +12,64 @@
     
     
     <entry>
+    <title>Quamina Diary - Tim Bray</title>
+    <link href="https://www.tbray.org/ongoing/What/Technology/Quamina%20Diary/" />
+      
+      <updated>2024-07-15T20:59:16Z</updated>
+      <id>https://www.tbray.org/ongoing/What/Technology/Quamina%20Diary/</id>
+      <summary type="html">
+        
+          This ongoing (no pun intended) series by Tim Bray on building Quamina, a finite automaton for pattern matching, is immensely satisfying, focusing as it does on the role of craft and design in software, factors rarely actually that important in the day to day of the work.
+        
+      </summary>
+      
+        <category term="code" />
+      
+        <category term="craft" />
+      
+        <category term="golang" />
+      
+        <category term="mlp" />
+      
+        <category term="programming" />
+      
+        <category term="tim.bray" />
+      
+    </entry>
+  
+    
+    <entry>
+    <title>Q Numbers - Tim Bray ·</title>
+    <link href="https://www.tbray.org/ongoing/When/202x/2024/07/09/Q-Numbers" />
+      
+      <updated>2024-07-15T20:57:08Z</updated>
+      <id>https://www.tbray.org/ongoing/When/202x/2024/07/09/Q-Numbers</id>
+      <summary type="html">
+        
+          Love this latest short entry in Tim&#39;s Quamina series - &#34;describes how to match and compare numbers using a finite automaton, which involves transforming them into strings with the right lexical properties. My hope is that there are at least twelve people in the world who are interested in the intersection of numeric representation and finite automata&#34;
+        
+      </summary>
+      
+        <category term="code" />
+      
+        <category term="craft" />
+      
+        <category term="finite.automata" />
+      
+        <category term="golang" />
+      
+        <category term="mlp" />
+      
+        <category term="pattern.matching" />
+      
+        <category term="programming" />
+      
+        <category term="tim.bray" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>Interesting Volts interview of Kobold Metal CEO.</title>
     <link href="https://www.volts.wtf/p/getting-better-at-mining-the-minerals" />
       
