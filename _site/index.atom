@@ -46,9 +46,11 @@
       <id>https://github.com/BurntSushi/jiff</id>
       <summary type="html">
         
-          Temporal inspired.
+          Temporal inspired. From the person who built ripgrep and Rust’s regex
         
       </summary>
+      
+        <category term="burntsushi" />
       
         <category term="calendaring" />
       
