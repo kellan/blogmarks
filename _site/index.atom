@@ -12,6 +12,87 @@
     
     
     <entry>
+    <title>Kamala Harris and Her Climate Positions - The New York Times</title>
+    <link href="https://www.nytimes.com/2024/07/22/climate/kamala-harris-climate-environment.html?unlocked_article_code=1.9E0.UtEA.l2vqM3es8nQ0" />
+      
+      <updated>2024-07-23T12:33:22Z</updated>
+      <id>https://www.nytimes.com/2024/07/22/climate/kamala-harris-climate-environment.html?unlocked_article_code=1.9E0.UtEA.l2vqM3es8nQ0</id>
+      <summary type="html">
+        
+          I remember her as one of the original sponsors of the Green New Deal. Good to see her get some credit for that.
+        
+      </summary>
+      
+        <category term="climate" />
+      
+        <category term="harris" />
+      
+        <category term="mlp" />
+      
+        <category term="nytimes" />
+      
+        <category term="politics" />
+      
+        <category term="uspol" />
+      
+    </entry>
+  
+    
+    <entry>
+    <title>jiff: A date-time library for Rust</title>
+    <link href="https://github.com/BurntSushi/jiff" />
+      
+      <updated>2024-07-23T12:24:00Z</updated>
+      <id>https://github.com/BurntSushi/jiff</id>
+      <summary type="html">
+        
+          Temporal inspired.
+        
+      </summary>
+      
+        <category term="calendaring" />
+      
+        <category term="datetime" />
+      
+        <category term="library" />
+      
+        <category term="mlp" />
+      
+        <category term="rust" />
+      
+        <category term="temporal" />
+      
+        <category term="timezone" />
+      
+    </entry>
+  
+    
+    <entry>
+    <title>1-bit LLMs Could Solve AI’s Energy Demands - IEEE Spectrum</title>
+    <link href="https://spectrum.ieee.org/1-bit-llm" />
+      
+      <updated>2024-07-23T12:18:45Z</updated>
+      <id>https://spectrum.ieee.org/1-bit-llm</id>
+      <summary type="html">
+        
+          “researchers are finding ways to reduce their size by quantization - representing model parameters with only 1 or -1. The two main approaches are post-training quantization (PTQ) and quantization-aware training (QAT).”
+        
+      </summary>
+      
+        <category term="ai" />
+      
+        <category term="climate" />
+      
+        <category term="energy" />
+      
+        <category term="llm" />
+      
+        <category term="mlp" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>Does Science Fiction Shape the Future? - Nautilus</title>
     <link href="https://nautil.us/does-science-fiction-shape-the-future-543468/" />
       
