@@ -12,6 +12,31 @@
     
     
     <entry>
+    <title>Introducing SAM 2: The next generation of Meta Segment Anything Model for videos and images</title>
+    <link href="https://ai.meta.com/blog/segment-anything-2/" />
+      
+      <updated>2024-07-31T21:17:31Z</updated>
+      <id>https://ai.meta.com/blog/segment-anything-2/</id>
+      <summary type="html">
+        
+          Expands Meta’s SAM model to video for effectively identifying which pixels belong to which objects. Open code, weights and dataset
+        
+      </summary>
+      
+        <category term="ai" />
+      
+        <category term="meta" />
+      
+        <category term="mlp" />
+      
+        <category term="opensource" />
+      
+        <category term="video" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>Saltwater Farming (Youtube)</title>
     <link href="https://www.youtube.com/watch?v=b4csIdPZxsg&t=620s" />
       
