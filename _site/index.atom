@@ -12,6 +12,29 @@
     
     
     <entry>
+    <title>FLUX from Black Forest Labs</title>
+    <link href="https://blackforestlabs.ai/announcing-black-forest-labs/" />
+      
+      <updated>2024-08-05T02:58:15Z</updated>
+      <id>https://blackforestlabs.ai/announcing-black-forest-labs/</id>
+      <summary type="html">
+        
+          “Flux, 12b parameters open source text-to-image model to date, developed by Black Forest Labs—the original team behind Stable Diffusion.”
+        
+      </summary>
+      
+        <category term="ai" />
+      
+        <category term="genai" />
+      
+        <category term="mlp" />
+      
+        <category term="stablediffusion" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>Introducing SAM 2: The next generation of Meta Segment Anything Model for videos and images</title>
     <link href="https://ai.meta.com/blog/segment-anything-2/" />
       
