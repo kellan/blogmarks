@@ -12,6 +12,33 @@
     
     
     <entry>
+    <title>Platform Engineering: A Guide for Technical, Product, and People Leaders</title>
+    <link href="https://www.amazon.com/Platform-Engineering-Technical-Product-Leaders/dp/1098153642" />
+      
+      <updated>2024-08-13T15:16:55Z</updated>
+      <id>https://www.amazon.com/Platform-Engineering-Technical-Product-Leaders/dp/1098153642</id>
+      <summary type="html">
+        
+          I&#39;ve been eagerly awaiting Camille and Ian&#39;s new book. An understandable push by many companies in response to growing software development costs and challenges has been to embrace platforms. But platforms are hard. And there hasn&#39;t been a good book before now on how to build and operate them.
+        
+      </summary>
+      
+        <category term="books" />
+      
+        <category term="camille.fournier" />
+      
+        <category term="engineering" />
+      
+        <category term="ian.nowland" />
+      
+        <category term="mlp" />
+      
+        <category term="platform" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>FLUX from Black Forest Labs</title>
     <link href="https://blackforestlabs.ai/announcing-black-forest-labs/" />
       
