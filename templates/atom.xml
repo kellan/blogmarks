@@ -13,21 +13,21 @@
     
     <entry>
     <title>{{ link.description | escape }}</title>
-    <link href="{{ link.url }}" />
+    <link href="{{ link.url | escape }}" />
       {% set summary %}
         {% if link.quotable %}
           <q>{{ link.extended | escape }}</q>
           <span class="dash">&mdash;</span>
-          <cite> <a class="" href="{{ link.url }}">{{ link.description | escape }}</a></cite>
+          <cite> <a class="" href="{{ link.url | escape }}">{{ link.description | escape }}</a></cite>
         {% else %}
           {{ link.extended }}
         {% endif %}
       {% endset %}
       <updated>{{ link.ts | format_ts_rfc3339 }}</updated>
-      <id>{{ link.url  }}</id>
+      <id>{{ link.url  | escape }}</id>
       <summary type="html">{{ summary | escape }}</summary>
       {% for tag in link.clean_tags %}
-        <category term="{{ tag }}" />
+        <category term="{{ tag | escape }}" />
       {% endfor %}
     </entry>
   {% endfor %}
