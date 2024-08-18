@@ -12,6 +12,39 @@
     
     
     <entry>
+    <title>feedsin.space</title>
+    <link href="https://feedsin.space/?page=1" />
+      
+      <updated>2024-08-18T21:25:53Z</updated>
+      <id>https://feedsin.space/?page=1</id>
+      <summary type="html">
+        
+          A service that allows you to publish a RSS feed to the Fediverse. 
+        
+      </summary>
+      
+        <category term="atom" />
+      
+        <category term="fediverse" />
+      
+        <category term="feed" />
+      
+        <category term="links" />
+      
+        <category term="mastodon" />
+      
+        <category term="mlp" />
+      
+        <category term="rss" />
+      
+        <category term="rust" />
+      
+        <category term="syndication" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>Hugo 2024 Best Novella: Thornhedge by T.F. Kingfisher</title>
     <link href="https://us.macmillan.com/books/9781250244093/thornhedge" />
       
