@@ -12,6 +12,33 @@
     
     
     <entry>
+    <title>Vocabulary for describing whisky varieties</title>
+    <link href="https://vocab.org/whisky/terms" />
+      
+      <updated>2024-08-26T00:58:38Z</updated>
+      <id>https://vocab.org/whisky/terms</id>
+      <summary type="html">
+        
+          Stumbled over this today, a URI vocabulary for use in things like RDF for describing whisky. Posting just to remind myself how weird the standards communities are as I poke at adjacent things. 
+        
+      </summary>
+      
+        <category term="data" />
+      
+        <category term="mlp" />
+      
+        <category term="rdf" />
+      
+        <category term="standards" />
+      
+        <category term="whiskey" />
+      
+        <category term="whisky" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>Y Combinator is backing a weapons company for the first time, entering a sector it has previously shunned.</title>
     <link href="https://werd.io/2024/start-up-incubator-y-combinator-backs-its-first-weapons-firm" />
       
