@@ -12,6 +12,29 @@
     
     
     <entry>
+    <title>Solar-powered, self-hosted website</title>
+    <link href="https://solar.dri.es/" />
+      
+      <updated>2024-10-20T23:48:15Z</updated>
+      <id>https://solar.dri.es/</id>
+      <summary type="html">
+        
+          Intermittently available — not everything needs to be 5 nines
+        
+      </summary>
+      
+        <category term="hosting" />
+      
+        <category term="mlp" />
+      
+        <category term="raspberry.pi" />
+      
+        <category term="solar" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>Turns out the &#34;October Surprise&#34; is crime</title>
     <link href="https://davekarpf.substack.com/p/turns-out-the-october-surprise-is" />
       
