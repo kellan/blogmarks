@@ -12,6 +12,37 @@
     
     
     <entry>
+    <title>Using Rust in non-Rust servers to improve performance</title>
+    <link href="https://simonwillison.net/2024/Oct/23/using-rust-in-non-rust-servers/#atom-everything" />
+      
+      <updated>2024-10-29T01:21:10Z</updated>
+      <id>https://simonwillison.net/2024/Oct/23/using-rust-in-non-rust-servers/#atom-everything</id>
+      <summary type="html">
+        
+          “This is yet another reminder to me that I need to get over my cgi-bin era bias that says that shelling out to another process during a web request is a bad idea. It turns out modern computers can quite happily spawn and terminate 2,500+ processes a second!” —- I have these same instincts and was shaking my head in disapproval until I read this paragraph. 30 years into doing this work and the rate of change remains the hardest thing to wrap my head around.
+        
+      </summary>
+      
+        <category term="change" />
+      
+        <category term="computers" />
+      
+        <category term="mlp" />
+      
+        <category term="moores.law" />
+      
+        <category term="performance" />
+      
+        <category term="programming" />
+      
+        <category term="progress" />
+      
+        <category term="rust" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>A Case for Feminism in Programming Language Design</title>
     <link href="https://www.felienne.com/wp-content/uploads/2024/10/Feminism_in_Programming_Language_Design_CR_5-1.pdf" />
       
