@@ -12,6 +12,33 @@
     
     
     <entry>
+    <title>Pluralistic: Shifting $677m from the banks to the people, every year, forever (01 Nov 2024) – Pluralistic: Daily links from Cory Doctorow</title>
+    <link href="https://pluralistic.net/2024/11/01/bankshot/" />
+      
+      <updated>2024-11-01T22:54:32Z</updated>
+      <id>https://pluralistic.net/2024/11/01/bankshot/</id>
+      <summary type="html">
+        
+          &#34;A newly finalized Personal Financial Data Rights rule (from the CFPB ) will allow you to authorize third parties – other banks, comparison shopping sites, brokers, anyone who offers you a better deal, or help you find one&#34; -- now do this with energy usage data!
+        
+      </summary>
+      
+        <category term="banks" />
+      
+        <category term="cfpb" />
+      
+        <category term="hope" />
+      
+        <category term="mlp" />
+      
+        <category term="money" />
+      
+        <category term="open.data" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>Using Rust in non-Rust servers to improve performance</title>
     <link href="https://simonwillison.net/2024/Oct/23/using-rust-in-non-rust-servers/#atom-everything" />
       
