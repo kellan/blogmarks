@@ -12,6 +12,29 @@
     
     
     <entry>
+    <title>Graphing Calculator Story - another story about building a calculator app</title>
+    <link href="https://www.pacifict.com/story/" />
+      
+      <updated>2025-03-05T21:17:18Z</updated>
+      <id>https://www.pacifict.com/story/</id>
+      <summary type="html">
+        
+          &#34;My electronic badge still opened Apple&#39;s doors, so I just kept showing up.&#34;  
+        
+      </summary>
+      
+        <category term="apple" />
+      
+        <category term="calculator" />
+      
+        <category term="mac" />
+      
+        <category term="mlp" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>calculator-app - Chad Nauseam Home</title>
     <link href="https://chadnauseam.com/coding/random/calculator-app" />
       
@@ -24,6 +47,8 @@
       </summary>
       
         <category term="android" />
+      
+        <category term="calculator" />
       
         <category term="development" />
       
