@@ -12,6 +12,31 @@
     
     
     <entry>
+    <title>Game developer makes an argument for boring tech, talks about migrating away from Rust and in particular from a rapidly evolving framework in part because it makes LLMs less useful due to cut off date.</title>
+    <link href="https://deadmoney.gg/news/articles/migrating-away-from-rust" />
+      
+      <updated>2025-04-29T12:35:49Z</updated>
+      <id>https://deadmoney.gg/news/articles/migrating-away-from-rust</id>
+      <summary type="html">
+        
+          “The maturity and vast amount of stable historical data for C# and the Unity API mean that tools like Gemini consistently provide highly relevant guidance. While Bevy and Rust evolve rapidly - which is exciting and motivating - the pace means AI knowledge lags behind”
+        
+      </summary>
+      
+        <category term="ai" />
+      
+        <category term="boring.technology" />
+      
+        <category term="coding" />
+      
+        <category term="llm" />
+      
+        <category term="mlp" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>There Is One Clear Winner In The Corn Vs. Solar Battle - CleanTechnica</title>
     <link href="https://cleantechnica.com/2025/04/26/there-is-one-clear-winner-in-the-corn-vs-solar-battle/" />
       
