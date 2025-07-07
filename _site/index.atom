@@ -12,6 +12,56 @@
     
     
     <entry>
+    <title>“If we don’t understand what’s happening and why it’s happening, you can’t be adapting. … You’re just going to suffer,”</title>
+    <link href="https://www.propublica.org/article/trump-noaa-budget-cuts-climate-change-modeling-princeton-gfdl" />
+      
+      <updated>2025-07-07T12:57:32Z</updated>
+      <id>https://www.propublica.org/article/trump-noaa-budget-cuts-climate-change-modeling-princeton-gfdl</id>
+      <summary type="html">
+        
+          &lt;q&gt;From April on the Trump cuts to NOAA, but that quote, /me gestures broadly&lt;/q&gt;
+          &lt;span class=&#34;dash&#34;&gt;&amp;mdash;&lt;/span&gt;
+          &lt;cite&gt; &lt;a class=&#34;&#34; href=&#34;https://www.propublica.org/article/trump-noaa-budget-cuts-climate-change-modeling-princeton-gfdl&#34;&gt;“If we don’t understand what’s happening and why it’s happening, you can’t be adapting. … You’re just going to suffer,”&lt;/a&gt;&lt;/cite&gt;
+        
+      </summary>
+      
+        <category term="climate" />
+      
+        <category term="mlp" />
+      
+        <category term="politics" />
+      
+        <category term="quotable" />
+      
+    </entry>
+  
+    
+    <entry>
+    <title>The mystery of em‑dashes: part two with quantitative evidence</title>
+    <link href="https://msukhareva.substack.com/p/the-mystery-of-emdashes-part-two" />
+      
+      <updated>2025-07-07T12:38:33Z</updated>
+      <id>https://msukhareva.substack.com/p/the-mystery-of-emdashes-part-two</id>
+      <summary type="html">
+        
+          The rise of em‑dashes in AI‑generated text happened because models are trained on older pre-digital text and an em-dash has a lower cost for LLM’s loss function over “, and”.
+        
+      </summary>
+      
+        <category term="ai" />
+      
+        <category term="language" />
+      
+        <category term="mlp" />
+      
+        <category term="punctuation" />
+      
+        <category term="research" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>Ethan Zuckerman data work to find statistically improbable restaurants</title>
     <link href="https://ethanzuckerman.com/2025/07/03/stalking-the-statistically-improbable-restaurant-with-data/" />
       
