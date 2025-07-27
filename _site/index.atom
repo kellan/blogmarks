@@ -12,6 +12,29 @@
     
     
     <entry>
+    <title>s3_unzip.sh - unzip large files on S3</title>
+    <link href="https://gist.github.com/kellan/bb6bf5a9005aa3aea30093e0addd7ff0" />
+      
+      <updated>2025-07-27T17:44:55Z</updated>
+      <id>https://gist.github.com/kellan/bb6bf5a9005aa3aea30093e0addd7ff0</id>
+      <summary type="html">
+        
+          a script for downloading large zip files to an ec2 instance with mounted EBS, unzipping them, and writing them back.
+        
+      </summary>
+      
+        <category term="gist" />
+      
+        <category term="mlp" />
+      
+        <category term="s3" />
+      
+        <category term="script" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>“If we don’t understand what’s happening and why it’s happening, you can’t be adapting. … You’re just going to suffer,”</title>
     <link href="https://www.propublica.org/article/trump-noaa-budget-cuts-climate-change-modeling-princeton-gfdl" />
       
