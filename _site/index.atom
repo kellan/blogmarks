@@ -12,6 +12,33 @@
     
     
     <entry>
+    <title>Solar+storage is so much farther along than you think</title>
+    <link href="https://www.volts.wtf/p/solarstorage-is-so-much-farther-along" />
+      
+      <updated>2025-08-05T15:12:34Z</updated>
+      <id>https://www.volts.wtf/p/solarstorage-is-so-much-farther-along</id>
+      <summary type="html">
+        
+          If you don&#39;t have a subscription to BNEF you may not have seen that battery costs are down 40% YEAR OVER YEAR, with a much more environmentally friendly bill of materials, and containerized deployment. We&#39;re used to solar following precipitously but batteries getting on that same curve fundamentally changes the economics. 
+        
+      </summary>
+      
+        <category term="battery" />
+      
+        <category term="climate-hope" />
+      
+        <category term="grid" />
+      
+        <category term="mlp" />
+      
+        <category term="solar" />
+      
+        <category term="volts" />
+      
+    </entry>
+  
+    
+    <entry>
     <title>s3_unzip.sh - unzip large files on S3</title>
     <link href="https://gist.github.com/kellan/bb6bf5a9005aa3aea30093e0addd7ff0" />
       
