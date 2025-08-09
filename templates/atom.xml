@@ -34,6 +34,9 @@
       {% for tag in link.clean_tags %}
         <category term="{{ tag | escape }}" />
       {% endfor %}
+
+      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
+
     </entry>
   {% endfor %}
 </feed>
