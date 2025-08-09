@@ -1,5 +1,5 @@
 from jinja2 import Environment, FileSystemLoader
-import db
+from . import db
 import datetime 
 import os
 import collections

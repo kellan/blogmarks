@@ -3,7 +3,7 @@ import os
 import xmltodict, iso8601, click
 import json, urllib.request, sys
 from typing import Any
-import db
+from . import db
 import datetime
 
 load_dotenv()
@@ -69,6 +69,10 @@ def add_links(links):
 def munge_link(link):
 	date_tag = None
 	via_tag = None
+
+	# Initialize via field to None if not already present
+	if 'via' not in link:
+		link['via'] = None
 
 	tags = link['tags'].split(' ')
 	for tag in tags:
