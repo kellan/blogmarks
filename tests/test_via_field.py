@@ -53,7 +53,7 @@ def test_via_field_saved_to_database(temp_db):
     
     assert result is not None
     via_field, tags_field = result
-    assert via_field == 'tbray'  # via: tag should be extracted
+    assert via_field == 'https://www.tbray.org/ongoing/'  # via: tag should be extracted and expanded
     assert 'via:tbray' not in tags_field  # via: tag should be removed from tags
     assert 'python coding' in tags_field  # other tags should remain
 
@@ -73,6 +73,6 @@ def test_munge_link_extracts_via_tag():
     munged_link = munge_link(link)
     
     # Assert
-    assert munged_link['via'] == 'nelson'
+    assert munged_link['via'] == 'https://www.somebits.com/weblog/'
     assert 'via:nelson' not in munged_link['tags']
     assert 'python coding' in munged_link['tags']

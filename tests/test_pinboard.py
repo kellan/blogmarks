@@ -81,7 +81,7 @@ class TestMungeLink:
         
         result = munge_link(link)
         
-        assert result['via'] == 'tbray'
+        assert result['via'] == 'https://www.tbray.org/ongoing/'
         assert 'via:tbray' not in result['tags']
         assert 'python coding' in result['tags']
     
@@ -117,7 +117,7 @@ class TestMungeLink:
         result = munge_link(link)
         
         expected_ts = datetime.datetime.strptime("2024-01-15", "%Y-%m-%d").timestamp()
-        assert result['via'] == 'nelson'
+        assert result['via'] == 'https://www.somebits.com/weblog/'
         assert result['ts'] == expected_ts
         assert 'via:nelson' not in result['tags']
         assert 'date:2024-01-15' not in result['tags']
@@ -230,4 +230,4 @@ class TestAddLinks:
         conn.close()
         
         assert count == 2
-        assert via_result == 'tbray'
+        assert via_result == 'https://www.tbray.org/ongoing/'
