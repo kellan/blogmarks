@@ -24,7 +24,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Generate HTML
-      run: python blogmarks/render.py
+      run: python -m blogmarks.render
 
     - name: Commit HTML files
       run: |
