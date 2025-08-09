@@ -18,9 +18,9 @@ create table if not exists links (
 
 -- :name upsert_link :insert
 insert or replace into links
-    (ts, url, description, extended, tags, hash)
+    (ts, url, description, extended, via, tags, hash)
 values
-    (:ts, :url, :description, :extended, :tags, :hash)
+    (:ts, :url, :description, :extended, :via, :tags, :hash)
 
 
 -- :name distinct_year_months :many

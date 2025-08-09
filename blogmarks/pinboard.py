@@ -3,7 +3,7 @@ import os
 import xmltodict, iso8601, click
 import json, urllib.request, sys
 from typing import Any
-import db
+from . import db
 import datetime
 
 load_dotenv()
@@ -70,6 +70,10 @@ def munge_link(link):
 	date_tag = None
 	via_tag = None
 
+	# Initialize via field to None if not already present
+	if 'via' not in link:
+		link['via'] = None
+
 	tags = link['tags'].split(' ')
 	for tag in tags:
 		if tag.startswith("date:"):
@@ -78,7 +82,8 @@ def munge_link(link):
 			via_tag = tag
 
 	if via_tag:
-		link['via'] = via_tag[4:]
+		raw_via = via_tag[4:]
+		link['via'] = expand_via_shorthand(raw_via)
 		tags.remove(via_tag)
 
 	if date_tag:
@@ -87,6 +92,32 @@ def munge_link(link):
 	link['tags'] = ' '.join(tags)
 	
 	return link
+
+def expand_via_shorthand(via_code):
+	"""
+	Expand via shorthand codes to full URLs.
+	Returns the original value if not a known shorthand or already a URL.
+	"""
+	if not via_code:
+		return via_code
+	
+	# If it's already a URL, return as-is
+	if via_code.startswith(('http://', 'https://')):
+		return via_code
+	
+	# Via shorthand mappings
+	via_mappings = {
+		'tbray': 'https://www.tbray.org/ongoing/',
+		'migurski': 'http://mike.teczno.com/notes/',
+		'skamille': 'https://www.elidedbranches.com/',
+		'nelson': 'https://www.somebits.com/weblog/',
+		'kottke': 'https://kottke.org/',
+		'waxy': 'https://waxy.org/',
+		'kottke.org': 'https://kottke.org/',
+		'sarah.milstein': 'https://www.sarahmilstein.com/',
+	}
+	
+	return via_mappings.get(via_code, via_code)
 
 def main():
 	kwargs = {}
