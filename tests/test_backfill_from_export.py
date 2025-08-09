@@ -172,24 +172,24 @@ class TestBackfillFromExport:
             # Should have updated 3 links (the ones with mlp + via: tags)
             assert updates_count == 3
             
-            # Check that via fields were updated
+            # Check that via fields were updated with expanded URLs
             conn = sqlite3.connect(temp_db_with_existing_links)
             cursor = conn.cursor()
             
-            # Check first link
+            # Check first link - tbray should be expanded
             cursor.execute("SELECT via FROM links WHERE hash = ?", ('c50fd66774283e2d0a11077fbc7021f3',))
             result = cursor.fetchone()
-            assert result[0] == 'tbray'
+            assert result[0] == 'https://www.tbray.org/ongoing/'
             
-            # Check second link  
+            # Check second link - sarah.milstein should be expanded
             cursor.execute("SELECT via FROM links WHERE hash = ?", ('hash2',))
             result = cursor.fetchone()
-            assert result[0] == 'sarah.milstein'
+            assert result[0] == 'https://www.sarahmilstein.com/'
             
-            # Check third link
+            # Check third link - skamille should be expanded
             cursor.execute("SELECT via FROM links WHERE hash = ?", ('hash3',))
             result = cursor.fetchone()
-            assert result[0] == 'skamille'
+            assert result[0] == 'https://www.elidedbranches.com/'
             
             # Check that non-matching link wasn't touched
             cursor.execute("SELECT via FROM links WHERE hash = ?", ('hash4',))
@@ -247,7 +247,7 @@ class TestBackfillFromExport:
             # Check details for one candidate
             glp1_candidate = next(c for c in candidates if c['hash'] == 'c50fd66774283e2d0a11077fbc7021f3')
             assert glp1_candidate['current_via'] is None
-            assert glp1_candidate['extracted_via'] == 'tbray'
+            assert glp1_candidate['extracted_via'] == 'https://www.tbray.org/ongoing/'
             assert glp1_candidate['url'] == 'https://example.com/glp1'
         finally:
             os.unlink(temp_path)

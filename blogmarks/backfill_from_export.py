@@ -2,6 +2,7 @@
 # ABOUTME: Parse export, find mlp+via links, update database via field by matching hash
 import json
 from . import db
+from .pinboard import expand_via_shorthand
 
 def load_pinboard_export(file_path):
     """
@@ -60,6 +61,9 @@ def backfill_via_from_export(export_file_path):
         if not via_value:
             continue
         
+        # Expand via shorthand to full URL
+        expanded_via = expand_via_shorthand(via_value)
+        
         # Find matching link in database by hash
         db_links = list(queries.select_recent(count=10000))  # Get all links
         matching_link = None
@@ -69,8 +73,8 @@ def backfill_via_from_export(export_file_path):
                 break
         
         if matching_link:
-            print(f"Updating via field for {matching_link['url']} (hash: {hash_value}) -> via: {via_value}")
-            update_via_field_by_hash(hash_value, via_value)
+            print(f"Updating via field for {matching_link['url']} (hash: {hash_value}) -> via: {expanded_via}")
+            update_via_field_by_hash(hash_value, expanded_via)
             updates_made += 1
         else:
             print(f"No matching link found for hash: {hash_value}")
@@ -119,6 +123,9 @@ def preview_backfill_from_export(export_file_path):
         via_value = extract_via_from_tags(export_link.get('tags', ''))
         if not via_value:
             continue
+        
+        # Expand via shorthand to full URL
+        expanded_via = expand_via_shorthand(via_value)
             
         matching_db_link = db_links_by_hash.get(hash_value)
         if matching_db_link:
@@ -126,7 +133,7 @@ def preview_backfill_from_export(export_file_path):
                 'hash': hash_value,
                 'url': matching_db_link['url'],
                 'current_via': matching_db_link.get('via'),
-                'extracted_via': via_value,
+                'extracted_via': expanded_via,
                 'export_tags': export_link.get('tags', ''),
                 'db_tags': matching_db_link.get('tags', '')
             })
