@@ -25,7 +25,12 @@
       {% endset %}
       <updated>{{ link.ts | format_ts_rfc3339 }}</updated>
       <id>{{ link.url  | escape }}</id>
-      <summary type="html">{{ summary | escape }}</summary>
+      <summary type="html">{{ summary | escape }}
+          {% if link.via %}
+        ({% if link.via|is_url %}<a href="{{ link.via | escape}}" class="via">via</a>
+        {% else %}via {{ link.via | escape }}{% endif %})
+    {% endif %}
+      </summary>
       {% for tag in link.clean_tags %}
         <category term="{{ tag | escape }}" />
       {% endfor %}

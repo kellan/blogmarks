@@ -20,9 +20,24 @@ def link_tags(tags, joiner=' '):
     tag_urls = [f'<a href="{base_url}{tag}">{tag}</a>' for tag in tags]
     return joiner.join(tag_urls)
 
+def is_url_filter(value):
+    """
+    Jinja filter to detect if a value is a valid URL.
+    Returns True if the value starts with http:// or https://
+    """
+    if not value or not isinstance(value, str):
+        return False
+    
+    value = value.strip()
+    if not value:
+        return False
+    
+    return value.startswith(('http://', 'https://')) and len(value) > 8
+
 env.filters["format_ts"] = format_ts
 env.filters["link_tags"] = link_tags
 env.filters["format_ts_rfc3339"] = format_ts_rfc3339
+env.filters["is_url"] = is_url_filter
 
 def create_index(count=100, template='links.html'):
     posts = list(db.module().select_recent(count=count))

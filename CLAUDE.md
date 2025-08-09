@@ -25,10 +25,16 @@ python -m blogmarks.pinboard
 python -m blogmarks.render
 ```
 
+### Testing
+```bash
+./venv/bin/python -m pytest tests/ -v    # Run all tests
+./venv/bin/python -m pytest tests/test_via_field.py -v    # Run specific test file
+```
+
 ### Direct Module Testing
 ```bash
-python blogmarks/db.py        # Test database connection
-python blogmarks/render.py    # Generate all HTML files and feed
+python -m blogmarks.db        # Test database connection
+python -m blogmarks.render    # Generate all HTML files and feed
 ```
 
 ## Architecture
@@ -48,9 +54,11 @@ The codebase follows a simple modular structure:
 
 ### Key Features
 - Incremental sync (only fetches new bookmarks based on timestamps)
-- Special tag handling: `date:YYYY-MM-DD` for backdating, `via:source` for attribution
+- **Via field support**: `via:source` tags are extracted and stored in database `via` field, then removed from tags
+- **Date field support**: `date:YYYY-MM-DD` tags override timestamp for backdating posts
 - Monthly archives with automatic year/month organization
 - Atom feed generation for syndication
+- Comprehensive test suite with 37 tests covering all major functionality
 
 ## Database Schema
 
@@ -70,3 +78,16 @@ Generated files in `_site/`:
 - `PINBOARD_API_TOKEN` (required) - Your Pinboard API token
 - `PINBOARD_API_COUNT` (optional) - Number of recent posts to fetch
 - `PINBOARD_API_TAG` (optional) - Filter by specific tag
+
+## Development Notes
+
+### Testing
+- TDD approach is followed for all new features
+- Comprehensive test suite covers pinboard processing, database operations, and rendering
+- Tests use temporary databases to avoid affecting production data
+- Run tests before making changes to ensure no regressions
+
+### Tag Processing
+- `via:source` tags: Extracted to `via` database field, removed from tags list
+- `date:YYYY-MM-DD` tags: Override timestamp for backdating, removed from tags list
+- Special tags `+` and `-` are filtered out during post preparation

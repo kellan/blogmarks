@@ -15,9 +15,6 @@
         <a class="" href="{{ link.url }}">
             {{ link.description | escape }}
         </a>
-        {% if link.via %}
-        (<a href="{{ link.via }}" class="via">via</a>)
-        {% endif %}
     </cite>
     {% else %}
 
@@ -32,9 +29,7 @@
     <span class="link-description">
         {{ link.extended | escape }}
     </span>
-    {% if link.via %}
-    (<a href="{{ link.via }}" class="via">via</a>)
-    {% endif %}
+
     {% endif %}
 
     {% endif %}
@@ -44,6 +39,9 @@
         {% if link.clean_tags %}
         &middot; <span class="tags">{{ link.clean_tags|link_tags(', ') }}</span>
         {% endif %})
+        {% if link.via %}
+        ({% if link.via|is_url %}<a href="{{ link.via }}" class="via">via</a>{% else %}via {{ link.via }}{% endif %})
+        {% endif %}
     </span>
 </article>
 {%- endfor -%}
