@@ -14,6 +14,10 @@
     <entry>
     <title>{{ link.description | escape }}</title>
     <link href="{{ link.url | escape }}" />
+    {% if link.via|is_url %}
+    <link rel="via" href="{{ link.via | escape }}" />
+    {% endif %}
+
       {% set summary %}
         {% if link.quotable %}
           <q>{{ link.extended | escape }}</q>
