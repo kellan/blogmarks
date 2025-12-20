@@ -12,6 +12,42 @@
     
     
     <entry>
+    <title>NTP at NIST Boulder has lost power - NANOG - lists.nanog.org</title>
+    <link href="https://lists.nanog.org/archives/list/nanog@lists.nanog.org/thread/ACADD3NKOG2QRWZ56OSNNG7UIEKKTZXL/" />
+    
+
+      
+      <updated>2025-12-20T14:39:44Z</updated>
+      <id>https://lists.nanog.org/archives/list/nanog@lists.nanog.org/thread/ACADD3NKOG2QRWZ56OSNNG7UIEKKTZXL/</id>
+      <summary type="html">
+        
+          Main NIST NTP servers are offline due to weather situation in Boulder
+        
+      
+          
+      </summary>
+      
+        <category term="boulder" />
+      
+        <category term="climate" />
+      
+        <category term="infrastructure" />
+      
+        <category term="internet" />
+      
+        <category term="mlp" />
+      
+        <category term="ntp" />
+      
+        <category term="time" />
+      
+
+      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
+
+    </entry>
+  
+    
+    <entry>
     <title>Why Solarpunk is already happening in Africa</title>
     <link href="https://climatedrift.substack.com/p/why-solarpunk-is-already-happening" />
     
@@ -3423,44 +3459,6 @@
         <category term="mlp" />
       
         <category term="quotable" />
-      
-
-      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
-
-    </entry>
-  
-    
-    <entry>
-    <title>GraphRAG (Graphs + Retrieval Augmented Generation)</title>
-    <link href="https://www.microsoft.com/en-us/research/project/graphrag/" />
-    
-
-      
-      <updated>2024-05-11T19:14:36Z</updated>
-      <id>https://www.microsoft.com/en-us/research/project/graphrag/</id>
-      <summary type="html">
-        
-          &lt;q&gt;RAG fails on global questions directed at an entire text corpus, such as “What are the main themes in the dataset?”, since this is inherently a query-focused summarization (QFS) task, rather than an explicit retrieval task. ... Our approach uses an LLM to build a graph-based text index in two stages: first to derive an entity knowledge graph from the source documents, then to pregenerate community summaries for all groups of closely-related entities. Given a question, each community summary is used to generate a partial response, before all partial responses are again summarized in a final response to the user.  &lt;/q&gt;
-          &lt;span class=&#34;dash&#34;&gt;&amp;mdash;&lt;/span&gt;
-          &lt;cite&gt; &lt;a class=&#34;&#34; href=&#34;https://www.microsoft.com/en-us/research/project/graphrag/&#34;&gt;GraphRAG (Graphs + Retrieval Augmented Generation)&lt;/a&gt;&lt;/cite&gt;
-        
-      
-          
-      </summary>
-      
-        <category term="ai" />
-      
-        <category term="microsoft" />
-      
-        <category term="mlp" />
-      
-        <category term="paper" />
-      
-        <category term="python" />
-      
-        <category term="quotable" />
-      
-        <category term="rag" />
       
 
       <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
