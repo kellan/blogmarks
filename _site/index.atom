@@ -12,6 +12,42 @@
     
     
     <entry>
+    <title>An introduction to the fascinating the linguistics and history of American Sign Language (and sign languages in general) on “A Language I Love Is...” podcast with Aidan Elliott-McCrea</title>
+    <link href="https://shows.acast.com/a-language-i-love-is/episodes/american-sign-language-and-aidan-elliott-mccrea" />
+    
+
+      
+      <updated>2025-12-23T22:46:59Z</updated>
+      <id>https://shows.acast.com/a-language-i-love-is/episodes/american-sign-language-and-aidan-elliott-mccrea</id>
+      <summary type="html">
+        
+          Listen to my brilliant brother talk about how the ASL word for computer is derived from “work” most places but “think” in Silicon Valley, and how 3rd person pro-nouns are referenced using spatial variables
+        
+      
+          
+      </summary>
+      
+        <category term="aidan" />
+      
+        <category term="asl" />
+      
+        <category term="language" />
+      
+        <category term="linguistics" />
+      
+        <category term="mlp" />
+      
+        <category term="podcast" />
+      
+        <category term="sign.language" />
+      
+
+      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
+
+    </entry>
+  
+    
+    <entry>
     <title>NTP at NIST Boulder has lost power - NANOG - lists.nanog.org</title>
     <link href="https://lists.nanog.org/archives/list/nanog@lists.nanog.org/thread/ACADD3NKOG2QRWZ56OSNNG7UIEKKTZXL/" />
     
@@ -3423,42 +3459,6 @@
         <category term="mlp" />
       
         <category term="taiwan" />
-      
-
-      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
-
-    </entry>
-  
-    
-    <entry>
-    <title>Clustering ideas with Llamafile</title>
-    <link href="https://blog.lmorchard.com/2024/05/10/topic-clustering-llamafile/" />
-    
-
-      
-      <updated>2024-05-13T01:32:49Z</updated>
-      <id>https://blog.lmorchard.com/2024/05/10/topic-clustering-llamafile/</id>
-      <summary type="html">
-        
-          &lt;q&gt;TL;DR: In my previous post, I used local models with PyTorch and Sentence Transformers to roughly cluster ideas by named topic. In this post, I&amp;#39;ll try that again, but this time with Llamafile.&lt;/q&gt;
-          &lt;span class=&#34;dash&#34;&gt;&amp;mdash;&lt;/span&gt;
-          &lt;cite&gt; &lt;a class=&#34;&#34; href=&#34;https://blog.lmorchard.com/2024/05/10/topic-clustering-llamafile/&#34;&gt;Clustering ideas with Llamafile&lt;/a&gt;&lt;/cite&gt;
-        
-      
-          
-      </summary>
-      
-        <category term="ai" />
-      
-        <category term="llamafile" />
-      
-        <category term="llm" />
-      
-        <category term="lmorchard" />
-      
-        <category term="mlp" />
-      
-        <category term="quotable" />
       
 
       <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
