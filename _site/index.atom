@@ -12,6 +12,36 @@
     
     
     <entry>
+    <title>Story Seed Library</title>
+    <link href="https://storyseedlibrary.org/" />
+    
+
+      
+      <updated>2026-02-07T12:40:02Z</updated>
+      <id>https://storyseedlibrary.org/</id>
+      <summary type="html">
+        
+          “a library of Solarpunk art and story seeds - helping you imagine a better climate future in which humanity learns how to sustainably live on Earth.”
+        
+      
+          
+      </summary>
+      
+        <category term="art" />
+      
+        <category term="climate-hope" />
+      
+        <category term="mlp" />
+      
+        <category term="solarpunk" />
+      
+
+      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
+
+    </entry>
+  
+    
+    <entry>
     <title>“I hadn’t fully grasped how much the idea of a better future sustained me”. On life in the polycrisis.</title>
     <link href="https://www.theguardian.com/wellness/2026/jan/14/new-year-polycrisis-psychology-feeling-trapped" />
     
@@ -3430,40 +3460,6 @@
         <category term="meta" />
       
         <category term="mlp" />
-      
-
-      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
-
-    </entry>
-  
-    
-    <entry>
-    <title>Voynich manuscript - an illustrated codex hand-written in an unknown script by an unknown author</title>
-    <link href="https://en.wikipedia.org/wiki/Voynich_manuscript" />
-    
-
-      
-      <updated>2024-06-08T19:59:57Z</updated>
-      <id>https://en.wikipedia.org/wiki/Voynich_manuscript</id>
-      <summary type="html">
-        
-          I&#39;m going to be honest, I just learned about this using Simon&#39;s &#34;fascinate me&#34; prompt to make sure I had `llm` installed correctly.
-        
-      
-          
-      </summary>
-      
-        <category term="article" />
-      
-        <category term="cryptography" />
-      
-        <category term="history" />
-      
-        <category term="llm" />
-      
-        <category term="mlp" />
-      
-        <category term="wikipedia" />
       
 
       <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
