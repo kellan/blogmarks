@@ -1,5 +1,26 @@
 [
   {
+    "url": "https://www.iankduncan.com/engineering/2026-02-09-what-functional-programmers-get-wrong-about-systems/",
+    "description": "What Functional Programmers Get Wrong About Systems - Ian Duncan",
+    "extended": "Good article on fetishization of code over the system that is in no way about AI (but is extremely relevant).",
+    "ts": "2026-02-11",
+    "quotable": false
+  },
+  {
+    "url": "https://www.msn.com/en-us/society-culture-and-history/general/mexicans-are-refusing-to-spend-this-50-peso-bill/ar-AA1VW2lw",
+    "description": "Mexicans are refusing to spend this 50-peso bill",
+    "extended": "Axolotls are too cute. We brought home several to share with Riley, our axolotl, during our most recent M\u00e9xico trip.",
+    "ts": "2026-02-10",
+    "quotable": false
+  },
+  {
+    "url": "https://www.nature.com/articles/s41586-025-09922-y",
+    "description": "Artificial intelligence tools expand scientists\u2019 impact but contract science\u2019s focus | Nature",
+    "extended": "Heard about this paper on Volts this morning from Dr. Sarah Kapnick. Another instance where we're seeing individual benefits but not yet collective benefits. ",
+    "ts": "2026-02-10",
+    "quotable": false
+  },
+  {
     "url": "https://www.youtube.com/watch?v=YVnJ8LLGPsY",
     "description": "Sarah Taber: What Happened To Progressive Farmers?",
     "extended": "Love me a good history. Can't wait for part two. TL;DR: You become a farmer today by inheriting land. Inheritance based systems systems trend conservative (and to sub-optimal talent). Wealth and estate tax please.  ",
@@ -82,26 +103,5 @@
     "extended": "GLP1s cause rapid changes in the data life insurance uses to calculate when you\u2019ll die, but for most patients when you stop taking them you return to your original baseline.",
     "ts": "2025-08-09",
     "quotable": false
-  },
-  {
-    "url": "https://www.volts.wtf/p/solarstorage-is-so-much-farther-along",
-    "description": "Solar+storage is so much farther along than you think",
-    "extended": "If you don't have a subscription to BNEF you may not have seen that battery costs are down 40% YEAR OVER YEAR, with a much more environmentally friendly bill of materials, and containerized deployment. We're used to solar following precipitously but batteries getting on that same curve fundamentally changes the economics. ",
-    "ts": "2025-08-05",
-    "quotable": false
-  },
-  {
-    "url": "https://gist.github.com/kellan/bb6bf5a9005aa3aea30093e0addd7ff0",
-    "description": "s3_unzip.sh - unzip large files on S3",
-    "extended": "a script for downloading large zip files to an ec2 instance with mounted EBS, unzipping them, and writing them back.",
-    "ts": "2025-07-27",
-    "quotable": false
-  },
-  {
-    "url": "https://www.propublica.org/article/trump-noaa-budget-cuts-climate-change-modeling-princeton-gfdl",
-    "description": "\u201cIf we don\u2019t understand what\u2019s happening and why it\u2019s happening, you can\u2019t be adapting. \u2026 You\u2019re just going to suffer,\u201d",
-    "extended": "From April on the Trump cuts to NOAA, but that quote, /me gestures broadly",
-    "ts": "2025-07-07",
-    "quotable": true
   }
 ]

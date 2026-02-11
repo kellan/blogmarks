@@ -1,6 +1,7 @@
 from jinja2 import Environment, FileSystemLoader
 from . import db
-import datetime 
+import datetime
+import json
 import os
 import collections
 
@@ -84,6 +85,25 @@ def create_archives():
     with open(f"_site/archive.html", 'w') as fp:
         fp.write(render('archive.html', data))
 
+def create_recent_json(count=15):
+    posts = list(db.module().select_recent(count=count))
+    posts = prepare_posts(posts)
+    recent = []
+    for post in posts:
+        recent.append({
+            'url': post['url'],
+            'description': post['description'],
+            'extended': post['extended'],
+            'ts': format_ts(post['ts'], "%Y-%m-%d"),
+            'quotable': post.get('quotable', False),
+        })
+
+    os.makedirs('_site', exist_ok=True)
+
+    with open('_site/recent_links.json', 'w') as fp:
+        json.dump(recent, fp, indent=2)
+
+
 def create_feed(count=100):
     posts = list(db.module().select_recent(count=count))
     posts = prepare_posts(posts)
@@ -138,6 +158,7 @@ def main():
     create_index()
     create_archives()
     create_feed()
+    create_recent_json()
 
 if __name__ == '__main__':
     main()
