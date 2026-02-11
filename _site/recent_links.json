@@ -1,0 +1,107 @@
+[
+  {
+    "url": "https://www.youtube.com/watch?v=YVnJ8LLGPsY",
+    "description": "Sarah Taber: What Happened To Progressive Farmers?",
+    "extended": "Love me a good history. Can't wait for part two. TL;DR: You become a farmer today by inheriting land. Inheritance based systems systems trend conservative (and to sub-optimal talent). Wealth and estate tax please.  ",
+    "ts": "2026-02-09",
+    "quotable": false
+  },
+  {
+    "url": "https://storyseedlibrary.org/",
+    "description": "Story Seed Library",
+    "extended": "\u201ca library of Solarpunk art and story seeds - helping you imagine a better climate future in which humanity learns how to sustainably live on Earth.\u201d",
+    "ts": "2026-02-07",
+    "quotable": false
+  },
+  {
+    "url": "https://www.theguardian.com/wellness/2026/jan/14/new-year-polycrisis-psychology-feeling-trapped",
+    "description": "\u201cI hadn\u2019t fully grasped how much the idea of a better future sustained me\u201d. On life in the polycrisis.",
+    "extended": "Belief that we can make the world better is my core belief. Crazy as it sounds in 2026 that\u2019s how I ended up in tech. And it\u2019s a really daily struggle.",
+    "ts": "2026-01-17",
+    "quotable": false
+  },
+  {
+    "url": "https://shows.acast.com/a-language-i-love-is/episodes/american-sign-language-and-aidan-elliott-mccrea",
+    "description": "An introduction to the fascinating the linguistics and history of American Sign Language (and sign languages in general) on \u201cA Language I Love Is...\u201d podcast with Aidan Elliott-McCrea",
+    "extended": "Listen to my brilliant brother talk about how the ASL word for computer is derived from \u201cwork\u201d most places but \u201cthink\u201d in Silicon Valley, and how 3rd person pro-nouns are referenced using spatial variables",
+    "ts": "2025-12-23",
+    "quotable": false
+  },
+  {
+    "url": "https://lists.nanog.org/archives/list/nanog@lists.nanog.org/thread/ACADD3NKOG2QRWZ56OSNNG7UIEKKTZXL/",
+    "description": "NTP at NIST Boulder has lost power - NANOG - lists.nanog.org",
+    "extended": "Main NIST NTP servers are offline due to weather situation in Boulder",
+    "ts": "2025-12-20",
+    "quotable": false
+  },
+  {
+    "url": "https://climatedrift.substack.com/p/why-solarpunk-is-already-happening",
+    "description": "Why Solarpunk is already happening in Africa",
+    "extended": "Parts of Africa are successfully deploying distributed grids on the back of collapsing harder cost, pay as you go mobile payments, and selling carbon offsets",
+    "ts": "2025-11-22",
+    "quotable": false
+  },
+  {
+    "url": "https://www.theguardian.com/world/2025/nov/11/china-co2-emissions-flat-or-falling-for-past-18-months-analysis-finds",
+    "description": "China\u2019s CO2 emissions have been flat or falling for past 18 months, analysis finds",
+    "extended": "\u201c\u201cChina\u2019s carbon dioxide emissions have been flat or falling for 18 months, analysis reveals, adding evidence to the hope that the world\u2019s biggest polluter has managed to hit its target of peak CO2 emissions well ahead of schedule.\u201d",
+    "ts": "2025-11-11",
+    "quotable": false
+  },
+  {
+    "url": "https://aphyr.com/posts/397-i-want-you-to-understand-chicago",
+    "description": "I Want You to Understand Chicago",
+    "extended": "Notes from a friend living in Chicago during a government terror campaign.",
+    "ts": "2025-11-09",
+    "quotable": false
+  },
+  {
+    "url": "https://bsky.app/profile/solarchase.bsky.social/post/3m3mcz7plms2v",
+    "description": "\"Solar panels are cheaper than ordinary fencing materials.\"",
+    "extended": "Jenny Chase's annual update on solar power",
+    "ts": "2025-10-20",
+    "quotable": false
+  },
+  {
+    "url": "https://2389.ai/posts/agents-discover-subtweeting-solve-problems-faster/",
+    "description": "We Built Social Media for Agents and They Won't Stop Posting \u2014 2389 Research, Inc",
+    "extended": "Harper and friends experimenting with the edges of agents and collaboration. (We got a preview of this paper at Adobe DevDay last month and it is wild stuff)",
+    "ts": "2025-10-01",
+    "quotable": false
+  },
+  {
+    "url": "https://utilitytransitionhub.rmi.org/economic-dispatch/?_gl=1*1ss0u0y*_gcl_au*MTQwOTM2NzkwLjE3NTU0MjczMTk.",
+    "description": "Uneconomic dispatch: US high energy prices is largely a choice being made by the utilities and being paid by individuals.",
+    "extended": "E.g. utilities are choosing to run their coal fleets, which are the most expensive available option, and turn off renewable generation, costing individuals $1\u2013$2 billion annually. (while being a leading cause of CO2 emissions, and air pollution). They need their monopolies revoked.",
+    "ts": "2025-08-17",
+    "quotable": false
+  },
+  {
+    "url": "https://www.glp1digest.com/p/how-glp-1s-are-breaking-life-insurance",
+    "description": "How GLP-1s Are Breaking Life Insurance",
+    "extended": "GLP1s cause rapid changes in the data life insurance uses to calculate when you\u2019ll die, but for most patients when you stop taking them you return to your original baseline.",
+    "ts": "2025-08-09",
+    "quotable": false
+  },
+  {
+    "url": "https://www.volts.wtf/p/solarstorage-is-so-much-farther-along",
+    "description": "Solar+storage is so much farther along than you think",
+    "extended": "If you don't have a subscription to BNEF you may not have seen that battery costs are down 40% YEAR OVER YEAR, with a much more environmentally friendly bill of materials, and containerized deployment. We're used to solar following precipitously but batteries getting on that same curve fundamentally changes the economics. ",
+    "ts": "2025-08-05",
+    "quotable": false
+  },
+  {
+    "url": "https://gist.github.com/kellan/bb6bf5a9005aa3aea30093e0addd7ff0",
+    "description": "s3_unzip.sh - unzip large files on S3",
+    "extended": "a script for downloading large zip files to an ec2 instance with mounted EBS, unzipping them, and writing them back.",
+    "ts": "2025-07-27",
+    "quotable": false
+  },
+  {
+    "url": "https://www.propublica.org/article/trump-noaa-budget-cuts-climate-change-modeling-princeton-gfdl",
+    "description": "\u201cIf we don\u2019t understand what\u2019s happening and why it\u2019s happening, you can\u2019t be adapting. \u2026 You\u2019re just going to suffer,\u201d",
+    "extended": "From April on the Trump cuts to NOAA, but that quote, /me gestures broadly",
+    "ts": "2025-07-07",
+    "quotable": true
+  }
+]
