@@ -12,6 +12,40 @@
     
     
     <entry>
+    <title>What Functional Programmers Get Wrong About Systems - Ian Duncan</title>
+    <link href="https://www.iankduncan.com/engineering/2026-02-09-what-functional-programmers-get-wrong-about-systems/" />
+    
+
+      
+      <updated>2026-02-11T15:55:45Z</updated>
+      <id>https://www.iankduncan.com/engineering/2026-02-09-what-functional-programmers-get-wrong-about-systems/</id>
+      <summary type="html">
+        
+          Good article on fetishization of code over the system that is in no way about AI (but is extremely relevant).
+        
+      
+          
+      </summary>
+      
+        <category term="distributed" />
+      
+        <category term="functional" />
+      
+        <category term="ian.duncan" />
+      
+        <category term="mlp" />
+      
+        <category term="patterns" />
+      
+        <category term="programming" />
+      
+
+      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
+
+    </entry>
+  
+    
+    <entry>
     <title>Mexicans are refusing to spend this 50-peso bill</title>
     <link href="https://www.msn.com/en-us/society-culture-and-history/general/mexicans-are-refusing-to-spend-this-50-peso-bill/ar-AA1VW2lw" />
     
@@ -3424,37 +3458,6 @@
         <category term="us" />
       
         <category term="voting" />
-      
-
-      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
-
-    </entry>
-  
-    
-    <entry>
-    <title>Postmarks - a single-user bookmarking website designed to be easily hosted on Glitch</title>
-    <link href="https://casey.kolderup.org/notes/edf3a659f52528da103ea4dcbb09f66f.html" />
-    
-    <link rel="via" href="https://tomkahe.com/@tom/112586216401953376" />
-    
-
-      
-      <updated>2024-06-09T13:26:05Z</updated>
-      <id>https://casey.kolderup.org/notes/edf3a659f52528da103ea4dcbb09f66f.html</id>
-      <summary type="html">
-        
-          Going to look at this as an approach to adding ActivityPub support to MLP. But also looks like a good option if you don&#39;t need to indulge in the quixotic undertaking of writing your own. 
-        
-      
-          
-        (<a href="https://tomkahe.com/@tom/112586216401953376" class="via">via</a>
-        )
-    
-      </summary>
-      
-        <category term="activitypub" />
-      
-        <category term="mlp" />
       
 
       <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
