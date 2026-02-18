@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://www.nytimes.com/2026/02/18/opinion/ai-software.html?unlocked_article_code=1.NFA.Q5V5.RFhmZVUFQ04Z",
+    "description": "Paul Ford on \u201cThe A.I. Disruption Has Arrived, and It Sure Is Fun\u201d",
+    "extended": "\u201c\u201cAll of the people I love hate this stuff, and all the people I hate love it. And yet, likely because of the same personality flaws that drew me to technology in the first place, I am annoyingly excited.\u201d <= this.",
+    "ts": "2026-02-18",
+    "quotable": false
+  },
+  {
     "url": "https://www.carbonbrief.org/analysis-chinas-co2-emissions-have-now-been-flat-or-falling-for-21-months/",
     "description": "China\u2019s CO2 emissions have now been \u2018flat or falling\u2019 for 21 months",
     "extended": "Despite adding 520 terawatt hours of demand in 2025",
@@ -95,13 +102,6 @@
     "description": "\"Solar panels are cheaper than ordinary fencing materials.\"",
     "extended": "Jenny Chase's annual update on solar power",
     "ts": "2025-10-20",
-    "quotable": false
-  },
-  {
-    "url": "https://2389.ai/posts/agents-discover-subtweeting-solve-problems-faster/",
-    "description": "We Built Social Media for Agents and They Won't Stop Posting \u2014 2389 Research, Inc",
-    "extended": "Harper and friends experimenting with the edges of agents and collaboration. (We got a preview of this paper at Adobe DevDay last month and it is wild stuff)",
-    "ts": "2025-10-01",
     "quotable": false
   }
 ]
