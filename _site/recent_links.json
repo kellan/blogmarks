@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://www.galapagos.org/newsroom/gibbs-on-floreana-tortoise/",
+    "description": "On the Return of the Floreana Giant Tortoise | Gal\u00e1pagos Conservancy",
+    "extended": "\u201cFor the first time in 180 years, Floreana lineage giant tortoises set foot on Floreana Island once again.\u201d",
+    "ts": "2026-02-25",
+    "quotable": false
+  },
+  {
     "url": "https://www.nytimes.com/2026/02/18/opinion/ai-software.html?unlocked_article_code=1.NFA.Q5V5.RFhmZVUFQ04Z",
     "description": "Paul Ford on \u201cThe A.I. Disruption Has Arrived, and It Sure Is Fun\u201d",
     "extended": "\u201c\u201cAll of the people I love hate this stuff, and all the people I hate love it. And yet, likely because of the same personality flaws that drew me to technology in the first place, I am annoyingly excited.\u201d <= this.",
@@ -95,13 +102,6 @@
     "description": "I Want You to Understand Chicago",
     "extended": "Notes from a friend living in Chicago during a government terror campaign.",
     "ts": "2025-11-09",
-    "quotable": false
-  },
-  {
-    "url": "https://bsky.app/profile/solarchase.bsky.social/post/3m3mcz7plms2v",
-    "description": "\"Solar panels are cheaper than ordinary fencing materials.\"",
-    "extended": "Jenny Chase's annual update on solar power",
-    "ts": "2025-10-20",
     "quotable": false
   }
 ]
