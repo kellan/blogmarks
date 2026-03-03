@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf",
+    "description": "Knuth on Claude",
+    "extended": "\"I learned yesterday that an open problem I\u2019d been working on for several weeks had just been solved by Claude Opus 4.6\"",
+    "ts": "2026-03-03",
+    "quotable": false
+  },
+  {
     "url": "https://www.galapagos.org/newsroom/gibbs-on-floreana-tortoise/",
     "description": "On the Return of the Floreana Giant Tortoise | Gal\u00e1pagos Conservancy",
     "extended": "\u201cFor the first time in 180 years, Floreana lineage giant tortoises set foot on Floreana Island once again.\u201d",
@@ -95,13 +102,6 @@
     "description": "China\u2019s CO2 emissions have been flat or falling for past 18 months, analysis finds",
     "extended": "\u201c\u201cChina\u2019s carbon dioxide emissions have been flat or falling for 18 months, analysis reveals, adding evidence to the hope that the world\u2019s biggest polluter has managed to hit its target of peak CO2 emissions well ahead of schedule.\u201d",
     "ts": "2025-11-11",
-    "quotable": false
-  },
-  {
-    "url": "https://aphyr.com/posts/397-i-want-you-to-understand-chicago",
-    "description": "I Want You to Understand Chicago",
-    "extended": "Notes from a friend living in Chicago during a government terror campaign.",
-    "ts": "2025-11-09",
     "quotable": false
   }
 ]
