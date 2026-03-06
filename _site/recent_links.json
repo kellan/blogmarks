@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://github.com/prime-radiant-inc/clearance",
+    "description": "prime-radiant-inc/clearance: A Markdown viewer for macOS",
+    "extended": "A file browser for .md files from Jesse.",
+    "ts": "2026-03-06",
+    "quotable": false
+  },
+  {
     "url": "https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf",
     "description": "Knuth on Claude",
     "extended": "\"I learned yesterday that an open problem I\u2019d been working on for several weeks had just been solved by Claude Opus 4.6\"",
@@ -95,13 +102,6 @@
     "description": "Why Solarpunk is already happening in Africa",
     "extended": "Parts of Africa are successfully deploying distributed grids on the back of collapsing harder cost, pay as you go mobile payments, and selling carbon offsets",
     "ts": "2025-11-22",
-    "quotable": false
-  },
-  {
-    "url": "https://www.theguardian.com/world/2025/nov/11/china-co2-emissions-flat-or-falling-for-past-18-months-analysis-finds",
-    "description": "China\u2019s CO2 emissions have been flat or falling for past 18 months, analysis finds",
-    "extended": "\u201c\u201cChina\u2019s carbon dioxide emissions have been flat or falling for 18 months, analysis reveals, adding evidence to the hope that the world\u2019s biggest polluter has managed to hit its target of peak CO2 emissions well ahead of schedule.\u201d",
-    "ts": "2025-11-11",
     "quotable": false
   }
 ]
