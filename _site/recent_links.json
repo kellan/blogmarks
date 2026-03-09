@@ -1,5 +1,19 @@
 [
   {
+    "url": "https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/",
+    "description": "FFmpeg at Meta: Media Processing at Scale - Engineering at Meta",
+    "extended": "\"Meta executes ffmpeg and ffprobe binaries tens of billions of times a day\" -- ffmpeg is one of the CLIs I've found that can still consistently break an AI's \"brain\". ",
+    "ts": "2026-03-09",
+    "quotable": false
+  },
+  {
+    "url": "https://blog.bryanl.dev/posts/ai-senior-engineer-pipeline/",
+    "description": "AI Didn't Break the Senior Engineer Pipeline. It Showed That One Never Existed.",
+    "extended": "\u201cMost organizations have never had a model for developing software engineers. They had an environment that happened to produce growth, and they mistook the environment for a system.\u201d",
+    "ts": "2026-03-09",
+    "quotable": false
+  },
+  {
     "url": "https://pubs.acs.org/doi/10.1021/acsenergylett.5c03504",
     "description": "Integrated Capture and Conversion of Dilute CO2 Using an Oxygen Tolerant Porous Carbon Modified Gas Diffusion Electrode | ACS Energy Letters",
     "extended": "Lab-scale demonstration of 3rd wave direct air carbon caption addresses key challenges with DAC: it doesn't waste energy on oxygen, operates at room temperature without the superheating step to release CO2, and produces a valuable output (formic acid) vs something that needs to be sequestered. ",
@@ -88,20 +102,6 @@
     "description": "\u201cI hadn\u2019t fully grasped how much the idea of a better future sustained me\u201d. On life in the polycrisis.",
     "extended": "Belief that we can make the world better is my core belief. Crazy as it sounds in 2026 that\u2019s how I ended up in tech. And it\u2019s a really daily struggle.",
     "ts": "2026-01-17",
-    "quotable": false
-  },
-  {
-    "url": "https://shows.acast.com/a-language-i-love-is/episodes/american-sign-language-and-aidan-elliott-mccrea",
-    "description": "An introduction to the fascinating the linguistics and history of American Sign Language (and sign languages in general) on \u201cA Language I Love Is...\u201d podcast with Aidan Elliott-McCrea",
-    "extended": "Listen to my brilliant brother talk about how the ASL word for computer is derived from \u201cwork\u201d most places but \u201cthink\u201d in Silicon Valley, and how 3rd person pro-nouns are referenced using spatial variables",
-    "ts": "2025-12-23",
-    "quotable": false
-  },
-  {
-    "url": "https://lists.nanog.org/archives/list/nanog@lists.nanog.org/thread/ACADD3NKOG2QRWZ56OSNNG7UIEKKTZXL/",
-    "description": "NTP at NIST Boulder has lost power - NANOG - lists.nanog.org",
-    "extended": "Main NIST NTP servers are offline due to weather situation in Boulder",
-    "ts": "2025-12-20",
     "quotable": false
   }
 ]

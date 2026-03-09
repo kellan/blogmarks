@@ -12,6 +12,72 @@
     
     
     <entry>
+    <title>FFmpeg at Meta: Media Processing at Scale - Engineering at Meta</title>
+    <link href="https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/" />
+    
+
+      
+      <updated>2026-03-09T17:01:01Z</updated>
+      <id>https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/</id>
+      <summary type="html">
+        
+          &#34;Meta executes ffmpeg and ffprobe binaries tens of billions of times a day&#34; -- ffmpeg is one of the CLIs I&#39;ve found that can still consistently break an AI&#39;s &#34;brain&#34;. 
+        
+      
+          
+      </summary>
+      
+        <category term="facebook" />
+      
+        <category term="ffmpeg" />
+      
+        <category term="infrastructure" />
+      
+        <category term="meta" />
+      
+        <category term="mlp" />
+      
+        <category term="video" />
+      
+
+      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
+
+    </entry>
+  
+    
+    <entry>
+    <title>AI Didn&#39;t Break the Senior Engineer Pipeline. It Showed That One Never Existed.</title>
+    <link href="https://blog.bryanl.dev/posts/ai-senior-engineer-pipeline/" />
+    
+
+      
+      <updated>2026-03-09T16:43:34Z</updated>
+      <id>https://blog.bryanl.dev/posts/ai-senior-engineer-pipeline/</id>
+      <summary type="html">
+        
+          “Most organizations have never had a model for developing software engineers. They had an environment that happened to produce growth, and they mistook the environment for a system.”
+        
+      
+          
+      </summary>
+      
+        <category term="ai" />
+      
+        <category term="engineering" />
+      
+        <category term="leadership" />
+      
+        <category term="mlp" />
+      
+        <category term="software" />
+      
+
+      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
+
+    </entry>
+  
+    
+    <entry>
     <title>Integrated Capture and Conversion of Dilute CO2 Using an Oxygen Tolerant Porous Carbon Modified Gas Diffusion Electrode | ACS Energy Letters</title>
     <link href="https://pubs.acs.org/doi/10.1021/acsenergylett.5c03504" />
     
@@ -3342,76 +3408,6 @@
         <category term="quotable" />
       
         <category term="sheet-music" />
-      
-
-      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
-
-    </entry>
-  
-    
-    <entry>
-    <title>The ‘Godfather of AI’ emerges out of stealth to back climate focused startup for material science</title>
-    <link href="https://fortune.com/europe/2024/06/18/godfather-ai-geoffrey-hinton-quit-google-year-ago-emerged-stealth-back-startup-cuspai-ai-carbon-capture/" />
-    
-
-      
-      <updated>2024-06-19T13:30:09Z</updated>
-      <id>https://fortune.com/europe/2024/06/18/godfather-ai-geoffrey-hinton-quit-google-year-ago-emerged-stealth-back-startup-cuspai-ai-carbon-capture/</id>
-      <summary type="html">
-        
-          “Humanity will face many challenges in the coming decade. Some will be caused by AI while others can be solved by AI,” Hinton said.   “I’ve been very impressed by CuspAI and its mission to accelerate the design process of new materials using AI to curb one of humanity’s most urgent challenges—climate change.”
-        
-      
-          
-      </summary>
-      
-        <category term="ai" />
-      
-        <category term="climate" />
-      
-        <category term="cuspai" />
-      
-        <category term="geoffery-hinton" />
-      
-        <category term="material-science" />
-      
-        <category term="mlp" />
-      
-
-      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
-
-    </entry>
-  
-    
-    <entry>
-    <title>Big tech’s great AI power grab</title>
-    <link href="https://archive.is/D395O#selection-1187.116-1187.129" />
-    
-
-      
-      <updated>2024-06-18T14:36:57Z</updated>
-      <id>https://archive.is/D395O#selection-1187.116-1187.129</id>
-      <summary type="html">
-        
-          Admittedly the Economist are pro-capitalist lapdogs, but as we worry about the energy consumption being driven by AI, in the US context at least, it&#39;s worth remembering that big tech is one of the largest drivers and investors in green energy. Including informing Georgia Power, one of the worst utilities, that data centers are unlikely to come to their region, citing data centers near nuclear, and being important early customers from green energy startups like enhanced geothermal startup Fervo.
-        
-      
-          
-      </summary>
-      
-        <category term="ai" />
-      
-        <category term="big-tech" />
-      
-        <category term="climate" />
-      
-        <category term="datacenter" />
-      
-        <category term="green-energy" />
-      
-        <category term="mlp" />
-      
-        <category term="power" />
       
 
       <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
