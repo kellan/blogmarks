@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://gepa-ai.github.io/gepa/blog/2026/02/18/introducing-optimize-anything/",
+    "description": "optimize_anything: A Universal API for Optimizing any Text Parameter - GEPA",
+    "extended": "\"The key insight is that a surprisingly wide range of problems can be formulated as optimizing a text artifact\".",
+    "ts": "2026-03-14",
+    "quotable": false
+  },
+  {
     "url": "https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/",
     "description": "FFmpeg at Meta: Media Processing at Scale - Engineering at Meta",
     "extended": "\"Meta executes ffmpeg and ffprobe binaries tens of billions of times a day\" -- ffmpeg is one of the CLIs I've found that can still consistently break an AI's \"brain\". ",
@@ -95,13 +102,6 @@
     "description": "Story Seed Library",
     "extended": "\u201ca library of Solarpunk art and story seeds - helping you imagine a better climate future in which humanity learns how to sustainably live on Earth.\u201d",
     "ts": "2026-02-07",
-    "quotable": false
-  },
-  {
-    "url": "https://www.theguardian.com/wellness/2026/jan/14/new-year-polycrisis-psychology-feeling-trapped",
-    "description": "\u201cI hadn\u2019t fully grasped how much the idea of a better future sustained me\u201d. On life in the polycrisis.",
-    "extended": "Belief that we can make the world better is my core belief. Crazy as it sounds in 2026 that\u2019s how I ended up in tech. And it\u2019s a really daily struggle.",
-    "ts": "2026-01-17",
     "quotable": false
   }
 ]

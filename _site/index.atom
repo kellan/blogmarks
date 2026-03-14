@@ -12,6 +12,34 @@
     
     
     <entry>
+    <title>optimize_anything: A Universal API for Optimizing any Text Parameter - GEPA</title>
+    <link href="https://gepa-ai.github.io/gepa/blog/2026/02/18/introducing-optimize-anything/" />
+    
+
+      
+      <updated>2026-03-14T15:52:47Z</updated>
+      <id>https://gepa-ai.github.io/gepa/blog/2026/02/18/introducing-optimize-anything/</id>
+      <summary type="html">
+        
+          &#34;The key insight is that a surprisingly wide range of problems can be formulated as optimizing a text artifact&#34;.
+        
+      
+          
+      </summary>
+      
+        <category term="ai" />
+      
+        <category term="llm" />
+      
+        <category term="mlp" />
+      
+
+      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
+
+    </entry>
+  
+    
+    <entry>
     <title>FFmpeg at Meta: Media Processing at Scale - Engineering at Meta</title>
     <link href="https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/" />
     
@@ -3361,53 +3389,6 @@
         <category term="music" />
       
         <category term="sun.ra" />
-      
-
-      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
-
-    </entry>
-  
-    
-    <entry>
-    <title>Adrian Holovaty - Thoughts on my first machine learning project</title>
-    <link href="https://www.holovaty.com/writing/machine-learning-thoughts/" />
-    
-    <link rel="via" href="https://simonwillison.net/" />
-    
-
-      
-      <updated>2024-06-20T10:00:59Z</updated>
-      <id>https://www.holovaty.com/writing/machine-learning-thoughts/</id>
-      <summary type="html">
-        
-          &lt;q&gt;You (obviously!) can’t control your kid’s every actions; the best you can do is provide solid, consistent examples of appropriate behavior...and hope for the best.&lt;/q&gt;
-          &lt;span class=&#34;dash&#34;&gt;&amp;mdash;&lt;/span&gt;
-          &lt;cite&gt; &lt;a class=&#34;&#34; href=&#34;https://www.holovaty.com/writing/machine-learning-thoughts/&#34;&gt;Adrian Holovaty - Thoughts on my first machine learning project&lt;/a&gt;&lt;/cite&gt;
-        
-      
-          
-        (<a href="https://simonwillison.net/" class="via">via</a>
-        )
-    
-      </summary>
-      
-        <category term="adrian-holovaty" />
-      
-        <category term="ai" />
-      
-        <category term="ml" />
-      
-        <category term="mlp" />
-      
-        <category term="music" />
-      
-        <category term="omr" />
-      
-        <category term="parenting" />
-      
-        <category term="quotable" />
-      
-        <category term="sheet-music" />
       
 
       <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
