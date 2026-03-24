@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://swamp.club/",
+    "description": "Swamp Club",
+    "extended": "AI automations framework",
+    "ts": "2026-03-24",
+    "quotable": false
+  },
+  {
     "url": "https://gepa-ai.github.io/gepa/blog/2026/02/18/introducing-optimize-anything/",
     "description": "optimize_anything: A Universal API for Optimizing any Text Parameter - GEPA",
     "extended": "\"The key insight is that a surprisingly wide range of problems can be formulated as optimizing a text artifact\".",
@@ -95,13 +102,6 @@
     "description": "Sarah Taber: What Happened To Progressive Farmers?",
     "extended": "Love me a good history. Can't wait for part two. TL;DR: You become a farmer today by inheriting land. Inheritance based systems systems trend conservative (and to sub-optimal talent). Wealth and estate tax please.  ",
     "ts": "2026-02-09",
-    "quotable": false
-  },
-  {
-    "url": "https://storyseedlibrary.org/",
-    "description": "Story Seed Library",
-    "extended": "\u201ca library of Solarpunk art and story seeds - helping you imagine a better climate future in which humanity learns how to sustainably live on Earth.\u201d",
-    "ts": "2026-02-07",
     "quotable": false
   }
 ]
