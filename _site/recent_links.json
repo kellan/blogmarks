@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://arxiv.org/html/2603.21687v2",
+    "description": "Mirage: The Illusion of Visual Understanding",
+    "extended": "\"In the most extreme case, our model achieved the top rank on a standard chest X-ray question-answering benchmark without access to any images.\"",
+    "ts": "2026-03-29",
+    "quotable": false
+  },
+  {
     "url": "https://archive.md/bqaNq",
     "description": "China battery trio gain $70bn as Iran war sparks \u2018paradigm shift\u2019",
     "extended": "Not the way we hoped the climate transition would happen.",
@@ -95,13 +102,6 @@
     "description": "What Functional Programmers Get Wrong About Systems - Ian Duncan",
     "extended": "Good article on fetishization of code over the system that is in no way about AI (but is extremely relevant).",
     "ts": "2026-02-11",
-    "quotable": false
-  },
-  {
-    "url": "https://www.msn.com/en-us/society-culture-and-history/general/mexicans-are-refusing-to-spend-this-50-peso-bill/ar-AA1VW2lw",
-    "description": "Mexicans are refusing to spend this 50-peso bill",
-    "extended": "Axolotls are too cute. We brought home several to share with Riley, our axolotl, during our most recent M\u00e9xico trip.",
-    "ts": "2026-02-10",
     "quotable": false
   }
 ]
