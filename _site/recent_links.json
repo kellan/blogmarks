@@ -2,7 +2,7 @@
   {
     "url": "https://arxiv.org/html/2603.21687v2",
     "description": "Mirage: The Illusion of Visual Understanding",
-    "extended": "\"In the most extreme case, our model achieved the top rank on a standard chest X-ray question-answering benchmark without access to any images.\"",
+    "extended": "\"In the most extreme case, our model achieved the top rank on a standard chest X-ray question-answering benchmark without access to any images.\" \u2014models act as \u201csuper guessers\u201d acting on context clues, and hidden structures in the benchmarks.",
     "ts": "2026-03-29",
     "quotable": false
   },

@@ -21,7 +21,7 @@
       <id>https://arxiv.org/html/2603.21687v2</id>
       <summary type="html">
         
-          &#34;In the most extreme case, our model achieved the top rank on a standard chest X-ray question-answering benchmark without access to any images.&#34;
+          &#34;In the most extreme case, our model achieved the top rank on a standard chest X-ray question-answering benchmark without access to any images.&#34; —models act as “super guessers” acting on context clues, and hidden structures in the benchmarks.
         
       
           
