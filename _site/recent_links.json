@@ -1,5 +1,26 @@
 [
   {
+    "url": "https://en.wikipedia.org/wiki/Metal%E2%80%93organic_framework",
+    "description": "Metal\u2013organic framework: Coordination networks and molecular sponges for gas storage \ud83e\uddfd",
+    "extended": "Metal\u2013organic frameworks (MOFs) consist of metal ions or clusters coordinated to organic ligands to form one-, two-, or three-dimensional structures. They function as customizable molecular sponges, providing a \"Lego block\" framework with ultra-high surface areas that can be tuned for specific chemical guests. This architectural precision makes them ideal for high-capacity hydrogen storage, carbon capture, and targeted drug delivery.",
+    "ts": "2026-04-10",
+    "quotable": false
+  },
+  {
+    "url": "https://www.latent.space/p/materials",
+    "description": "Latent Space: ML for Material Science, active learning for chemical discovery \ud83d\udd2c",
+    "extended": "Heather Kulik discusses how machine learning and AI are accelerating the discovery of new materials, specifically using active learning to navigate massive chemical search spaces. This approach is being applied to metal-organic frameworks for direct CO2 air capture, essentially using AI as a guide to snap together the right molecular Lego blocks for carbon sequestration.",
+    "ts": "2026-04-10",
+    "quotable": false
+  },
+  {
+    "url": "https://www.nobelprize.org/prizes/chemistry/2025/press-release/",
+    "description": "The 2025 Nobel Prize in Chemistry: Metal Organic Frameworks, a lego block for precision chemicals",
+    "extended": "Susumu Kitagawa, Richard Robson, and Omar Yaghi were awarded the Nobel Prize for the development of metal-organic frameworks (MOFs), crystalline materials that use metal ions as cornerstones linked by organic molecules. \"Lego blocks\" for composing precise chemical structures, creating highly porous \"molecular rooms\" capable of harvesting water from desert air or capturing carbon dioxide.",
+    "ts": "2026-04-10",
+    "quotable": false
+  },
+  {
     "url": "https://arxiv.org/html/2603.21687v2",
     "description": "Mirage: The Illusion of Visual Understanding",
     "extended": "\"In the most extreme case, our model achieved the top rank on a standard chest X-ray question-answering benchmark without access to any images.\" \u2014models act as \u201csuper guessers\u201d acting on context clues, and hidden structures in the benchmarks.",
@@ -81,27 +102,6 @@
     "description": "Paul Ford on \u201cThe A.I. Disruption Has Arrived, and It Sure Is Fun\u201d",
     "extended": "\u201c\u201cAll of the people I love hate this stuff, and all the people I hate love it. And yet, likely because of the same personality flaws that drew me to technology in the first place, I am annoyingly excited.\u201d <= this.",
     "ts": "2026-02-18",
-    "quotable": false
-  },
-  {
-    "url": "https://www.carbonbrief.org/analysis-chinas-co2-emissions-have-now-been-flat-or-falling-for-21-months/",
-    "description": "China\u2019s CO2 emissions have now been \u2018flat or falling\u2019 for 21 months",
-    "extended": "Despite adding 520 terawatt hours of demand in 2025",
-    "ts": "2026-02-13",
-    "quotable": false
-  },
-  {
-    "url": "https://mashable.com/feature/carbon-footprint-pr-campaign-sham",
-    "description": "BP popularized \u201ccarbon footprint\u201d explicitly to shift the blame of climate change away from them and to individuals.",
-    "extended": "Carbon footprint is very much in the tradition of plastic recycling, a scam designed to turn blame and focus inward away from real systemic solutions.",
-    "ts": "2026-02-12",
-    "quotable": false
-  },
-  {
-    "url": "https://www.iankduncan.com/engineering/2026-02-09-what-functional-programmers-get-wrong-about-systems/",
-    "description": "What Functional Programmers Get Wrong About Systems - Ian Duncan",
-    "extended": "Good article on fetishization of code over the system that is in no way about AI (but is extremely relevant).",
-    "ts": "2026-02-11",
     "quotable": false
   }
 ]
