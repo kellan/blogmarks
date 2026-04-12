@@ -101,7 +101,7 @@ def create_recent_json(count=15):
     os.makedirs('_site', exist_ok=True)
 
     with open('_site/recent_links.json', 'w') as fp:
-        json.dump(recent, fp, indent=2)
+        json.dump(recent, fp, indent=2, ensure_ascii=False)
 
 
 def create_feed(count=100):
