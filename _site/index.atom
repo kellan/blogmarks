@@ -12,6 +12,38 @@
     
     
     <entry>
+    <title>In the US, in March, more electricity came from renewables than gas.</title>
+    <link href="https://www.canarymedia.com/articles/clean-energy/renewables-beat-natural-gas-us-grid-march-2026" />
+    
+
+      
+      <updated>2026-04-12T05:35:34Z</updated>
+      <id>https://www.canarymedia.com/articles/clean-energy/renewables-beat-natural-gas-us-grid-march-2026</id>
+      <summary type="html">
+        
+          The first time renewables have passed gas.
+        
+      
+          
+      </summary>
+      
+        <category term="climate-hope" />
+      
+        <category term="energy" />
+      
+        <category term="mlp" />
+      
+        <category term="renewable" />
+      
+        <category term="us" />
+      
+
+      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
+
+    </entry>
+  
+    
+    <entry>
     <title>Metal–organic framework: Coordination networks and molecular sponges for gas storage 🧽</title>
     <link href="https://en.wikipedia.org/wiki/Metal%E2%80%93organic_framework" />
     
@@ -3353,44 +3385,6 @@
         <category term="golang" />
       
         <category term="mlp" />
-      
-        <category term="programming" />
-      
-        <category term="tim.bray" />
-      
-
-      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
-
-    </entry>
-  
-    
-    <entry>
-    <title>Q Numbers - Tim Bray ·</title>
-    <link href="https://www.tbray.org/ongoing/When/202x/2024/07/09/Q-Numbers" />
-    
-
-      
-      <updated>2024-07-15T20:57:08Z</updated>
-      <id>https://www.tbray.org/ongoing/When/202x/2024/07/09/Q-Numbers</id>
-      <summary type="html">
-        
-          Love this latest short entry in Tim&#39;s Quamina series - &#34;describes how to match and compare numbers using a finite automaton, which involves transforming them into strings with the right lexical properties. My hope is that there are at least twelve people in the world who are interested in the intersection of numeric representation and finite automata&#34;
-        
-      
-          
-      </summary>
-      
-        <category term="code" />
-      
-        <category term="craft" />
-      
-        <category term="finite.automata" />
-      
-        <category term="golang" />
-      
-        <category term="mlp" />
-      
-        <category term="pattern.matching" />
       
         <category term="programming" />
       

@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://www.canarymedia.com/articles/clean-energy/renewables-beat-natural-gas-us-grid-march-2026",
+    "description": "In the US, in March, more electricity came from renewables than gas.",
+    "extended": "The first time renewables have passed gas.",
+    "ts": "2026-04-12",
+    "quotable": false
+  },
+  {
     "url": "https://en.wikipedia.org/wiki/Metal%E2%80%93organic_framework",
     "description": "Metal\u2013organic framework: Coordination networks and molecular sponges for gas storage \ud83e\uddfd",
     "extended": "Metal\u2013organic frameworks (MOFs) consist of metal ions or clusters coordinated to organic ligands to form one-, two-, or three-dimensional structures. They function as customizable molecular sponges, providing a \"Lego block\" framework with ultra-high surface areas that can be tuned for specific chemical guests. This architectural precision makes them ideal for high-capacity hydrogen storage, carbon capture, and targeted drug delivery.",
@@ -95,13 +102,6 @@
     "description": "On the Return of the Floreana Giant Tortoise | Gal\u00e1pagos Conservancy",
     "extended": "\u201cFor the first time in 180 years, Floreana lineage giant tortoises set foot on Floreana Island once again.\u201d",
     "ts": "2026-02-25",
-    "quotable": false
-  },
-  {
-    "url": "https://www.nytimes.com/2026/02/18/opinion/ai-software.html?unlocked_article_code=1.NFA.Q5V5.RFhmZVUFQ04Z",
-    "description": "Paul Ford on \u201cThe A.I. Disruption Has Arrived, and It Sure Is Fun\u201d",
-    "extended": "\u201c\u201cAll of the people I love hate this stuff, and all the people I hate love it. And yet, likely because of the same personality flaws that drew me to technology in the first place, I am annoyingly excited.\u201d <= this.",
-    "ts": "2026-02-18",
     "quotable": false
   }
 ]
