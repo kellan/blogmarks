@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://a4al6a.substack.com/p/stop-using-pull-requests",
+    "description": "Stop Using Pull Requests - the expensive illusion of software quality",
+    "extended": "The blog post I've wanted to write for years about how the industry standardizing on pull requests is an expensive mistake, but better researched, and I never had the energy for arguing with people online about code review. ",
+    "ts": "2026-05-29",
+    "quotable": false
+  },
+  {
     "url": "https://heatmap.news/climate-tech/desalination-oceanwell-vital-lyfe",
     "description": "Innovations in desalination significantly reduce cost",
     "extended": "Sinking units to the ocean floor can leverage the pressure of the water to push through the filters",
@@ -95,13 +102,6 @@
     "description": "prime-radiant-inc/clearance: A Markdown viewer for macOS",
     "extended": "A file browser for .md files from Jesse.",
     "ts": "2026-03-06",
-    "quotable": false
-  },
-  {
-    "url": "https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf",
-    "description": "Knuth on Claude",
-    "extended": "\"I learned yesterday that an open problem I’d been working on for several weeks had just been solved by Claude Opus 4.6\"",
-    "ts": "2026-03-03",
     "quotable": false
   }
 ]
