@@ -12,6 +12,38 @@
     
     
     <entry>
+    <title>MAI-Thinking-1: Building a Hill-Climbing Machine (pdf)</title>
+    <link href="https://microsoft.ai/pdf/mai-thinking-1.pdf" />
+    
+
+      
+      <updated>2026-06-10T22:07:02Z</updated>
+      <id>https://microsoft.ai/pdf/mai-thinking-1.pdf</id>
+      <summary type="html">
+        
+          109-page technical report from Microsoft how to train a modern LLM.
+        
+      
+          
+      </summary>
+      
+        <category term="ai" />
+      
+        <category term="llm" />
+      
+        <category term="microsoft" />
+      
+        <category term="mlp" />
+      
+        <category term="pdf" />
+      
+
+      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
+
+    </entry>
+  
+    
+    <entry>
     <title>Stop Using Pull Requests - the expensive illusion of software quality</title>
     <link href="https://a4al6a.substack.com/p/stop-using-pull-requests" />
     
@@ -3343,38 +3375,6 @@
         <category term="temporal" />
       
         <category term="timezone" />
-      
-
-      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
-
-    </entry>
-  
-    
-    <entry>
-    <title>1-bit LLMs Could Solve AI’s Energy Demands - IEEE Spectrum</title>
-    <link href="https://spectrum.ieee.org/1-bit-llm" />
-    
-
-      
-      <updated>2024-07-23T12:18:45Z</updated>
-      <id>https://spectrum.ieee.org/1-bit-llm</id>
-      <summary type="html">
-        
-          “researchers are finding ways to reduce their size by quantization - representing model parameters with only 1 or -1. The two main approaches are post-training quantization (PTQ) and quantization-aware training (QAT).”
-        
-      
-          
-      </summary>
-      
-        <category term="ai" />
-      
-        <category term="climate" />
-      
-        <category term="energy" />
-      
-        <category term="llm" />
-      
-        <category term="mlp" />
       
 
       <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>

@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://microsoft.ai/pdf/mai-thinking-1.pdf",
+    "description": "MAI-Thinking-1: Building a Hill-Climbing Machine (pdf)",
+    "extended": "109-page technical report from Microsoft how to train a modern LLM.",
+    "ts": "2026-06-10",
+    "quotable": false
+  },
+  {
     "url": "https://a4al6a.substack.com/p/stop-using-pull-requests",
     "description": "Stop Using Pull Requests - the expensive illusion of software quality",
     "extended": "The blog post I've wanted to write for years about how the industry standardizing on pull requests is an expensive mistake, but better researched, and I never had the energy for arguing with people online about code review. ",
@@ -95,13 +102,6 @@
     "description": "Integrated Capture and Conversion of Dilute CO2 Using an Oxygen Tolerant Porous Carbon Modified Gas Diffusion Electrode | ACS Energy Letters",
     "extended": "Lab-scale demonstration of 3rd wave direct air carbon caption addresses key challenges with DAC: it doesn't waste energy on oxygen, operates at room temperature without the superheating step to release CO2, and produces a valuable output (formic acid) vs something that needs to be sequestered. ",
     "ts": "2026-03-08",
-    "quotable": false
-  },
-  {
-    "url": "https://github.com/prime-radiant-inc/clearance",
-    "description": "prime-radiant-inc/clearance: A Markdown viewer for macOS",
-    "extended": "A file browser for .md files from Jesse.",
-    "ts": "2026-03-06",
     "quotable": false
   }
 ]
