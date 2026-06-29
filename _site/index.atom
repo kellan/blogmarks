@@ -12,6 +12,34 @@
     
     
     <entry>
+    <title>The fall of the theorem economy - David Bessis</title>
+    <link href="https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy#_" />
+    
+
+      
+      <updated>2026-06-29T19:47:59Z</updated>
+      <id>https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy#_</id>
+      <summary type="html">
+        
+          “The problem with unintelligible mathematics isn’t that it might be false. It is that it is literally meaningless, in the sense that it doesn’t compile on the only hardware that is currently able to make sense of it and appreciate its value—the human brain.”
+        
+      
+          
+      </summary>
+      
+        <category term="ai" />
+      
+        <category term="math" />
+      
+        <category term="mlp" />
+      
+
+      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
+
+    </entry>
+  
+    
+    <entry>
     <title>MAI-Thinking-1: Building a Hill-Climbing Machine (pdf)</title>
     <link href="https://microsoft.ai/pdf/mai-thinking-1.pdf" />
     
@@ -3337,44 +3365,6 @@
         <category term="politics" />
       
         <category term="uspol" />
-      
-
-      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
-
-    </entry>
-  
-    
-    <entry>
-    <title>jiff: A date-time library for Rust</title>
-    <link href="https://github.com/BurntSushi/jiff" />
-    
-
-      
-      <updated>2024-07-23T12:24:00Z</updated>
-      <id>https://github.com/BurntSushi/jiff</id>
-      <summary type="html">
-        
-          Temporal inspired. From the person who built ripgrep and Rust’s regex
-        
-      
-          
-      </summary>
-      
-        <category term="burntsushi" />
-      
-        <category term="calendaring" />
-      
-        <category term="datetime" />
-      
-        <category term="library" />
-      
-        <category term="mlp" />
-      
-        <category term="rust" />
-      
-        <category term="temporal" />
-      
-        <category term="timezone" />
       
 
       <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
