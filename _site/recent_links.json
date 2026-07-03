@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://arxiv.org/pdf/2601.13082",
+    "description": "Adversarial News and Lost Profits: Manipulating Headlines in LLM-Driven Algorithmic Trading, the threat of human-imperceptible market manipulation",
+    "extended": "And by human-imperceptible we mean Unicode games.",
+    "ts": "2026-07-03",
+    "quotable": false
+  },
+  {
     "url": "https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy#_",
     "description": "The fall of the theorem economy - David Bessis",
     "extended": "“The problem with unintelligible mathematics isn’t that it might be false. It is that it is literally meaningless, in the sense that it doesn’t compile on the only hardware that is currently able to make sense of it and appreciate its value—the human brain.”",
@@ -94,13 +101,6 @@
     "url": "https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/",
     "description": "FFmpeg at Meta: Media Processing at Scale - Engineering at Meta",
     "extended": "\"Meta executes ffmpeg and ffprobe binaries tens of billions of times a day\" -- ffmpeg is one of the CLIs I've found that can still consistently break an AI's \"brain\". ",
-    "ts": "2026-03-09",
-    "quotable": false
-  },
-  {
-    "url": "https://blog.bryanl.dev/posts/ai-senior-engineer-pipeline/",
-    "description": "AI Didn't Break the Senior Engineer Pipeline. It Showed That One Never Existed.",
-    "extended": "“Most organizations have never had a model for developing software engineers. They had an environment that happened to produce growth, and they mistook the environment for a system.”",
     "ts": "2026-03-09",
     "quotable": false
   }
