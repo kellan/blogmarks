@@ -12,6 +12,40 @@
     
     
     <entry>
+    <title>networkQuality - a command line utility on Mac for .... testing network quality.</title>
+    <link href="https://keith.github.io/xcode-man-pages/networkQuality.8.html" />
+    
+
+      
+      <updated>2026-07-11T18:34:57Z</updated>
+      <id>https://keith.github.io/xcode-man-pages/networkQuality.8.html</id>
+      <summary type="html">
+        
+          Useful if you&#39;re still running ping like a caveman (/me raises hand) to see if the network is actually up. 
+        
+      
+          
+      </summary>
+      
+        <category term="cli" />
+      
+        <category term="mac" />
+      
+        <category term="man" />
+      
+        <category term="mlp" />
+      
+        <category term="network" />
+      
+        <category term="til" />
+      
+
+      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
+
+    </entry>
+  
+    
+    <entry>
     <title>Adversarial News and Lost Profits: Manipulating Headlines in LLM-Driven Algorithmic Trading, the threat of human-imperceptible market manipulation</title>
     <link href="https://arxiv.org/pdf/2601.13082" />
     
@@ -3324,38 +3358,6 @@
         <category term="mlp" />
       
         <category term="simon.willison" />
-      
-
-      <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>
-
-    </entry>
-  
-    
-    <entry>
-    <title>Stamp Productions&#39; Road to an Olympic Campaign - YouTube</title>
-    <link href="https://www.youtube.com/watch?v=4iFGLRqI2fA" />
-    
-
-      
-      <updated>2024-07-23T17:26:21Z</updated>
-      <id>https://www.youtube.com/watch?v=4iFGLRqI2fA</id>
-      <summary type="html">
-        
-          Frame.io customer case study -- I love the work our production team does. (Especially enjoy the shout out from the customer using Frame to reduce their carbon footprint)
-        
-      
-          
-      </summary>
-      
-        <category term="climate" />
-      
-        <category term="dayjob" />
-      
-        <category term="frameio" />
-      
-        <category term="mlp" />
-      
-        <category term="youtube" />
       
 
       <p>Thank you for using RSS. I appreciate you. <a href="mailto:kellan&#64;pobox.com">Email me</a></p>

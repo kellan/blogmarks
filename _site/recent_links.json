@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://keith.github.io/xcode-man-pages/networkQuality.8.html",
+    "description": "networkQuality - a command line utility on Mac for .... testing network quality.",
+    "extended": "Useful if you're still running ping like a caveman (/me raises hand) to see if the network is actually up. ",
+    "ts": "2026-07-11",
+    "quotable": false
+  },
+  {
     "url": "https://arxiv.org/pdf/2601.13082",
     "description": "Adversarial News and Lost Profits: Manipulating Headlines in LLM-Driven Algorithmic Trading, the threat of human-imperceptible market manipulation",
     "extended": "And by human-imperceptible we mean Unicode games.",
@@ -95,13 +102,6 @@
     "description": "optimize_anything: A Universal API for Optimizing any Text Parameter - GEPA",
     "extended": "\"The key insight is that a surprisingly wide range of problems can be formulated as optimizing a text artifact\".",
     "ts": "2026-03-14",
-    "quotable": false
-  },
-  {
-    "url": "https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/",
-    "description": "FFmpeg at Meta: Media Processing at Scale - Engineering at Meta",
-    "extended": "\"Meta executes ffmpeg and ffprobe binaries tens of billions of times a day\" -- ffmpeg is one of the CLIs I've found that can still consistently break an AI's \"brain\". ",
-    "ts": "2026-03-09",
     "quotable": false
   }
 ]
