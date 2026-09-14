@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html?unlocked_article_code=1.AlE.C9EE.H2j5a1eHFUbQ&smid=nytcore-ios-share",
+    "description": "Paul Ford on whither the AI software revolution",
+    "extended": "“For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to practice their respective crafts. A.I. can write very good software, but it also makes it easy to do someone else’s job badly, which is part of why all those projects fail. Now that everyone can code, it’s become clearer why many shouldn’t.”",
+    "ts": "2026-09-14",
+    "quotable": true
+  },
+  {
     "url": "https://keith.github.io/xcode-man-pages/networkQuality.8.html",
     "description": "networkQuality - a command line utility on Mac for .... testing network quality.",
     "extended": "Useful if you're still running ping like a caveman (/me raises hand) to see if the network is actually up. ",
@@ -95,13 +102,6 @@
     "description": "Swamp Club",
     "extended": "AI automations framework",
     "ts": "2026-03-24",
-    "quotable": false
-  },
-  {
-    "url": "https://gepa-ai.github.io/gepa/blog/2026/02/18/introducing-optimize-anything/",
-    "description": "optimize_anything: A Universal API for Optimizing any Text Parameter - GEPA",
-    "extended": "\"The key insight is that a surprisingly wide range of problems can be formulated as optimizing a text artifact\".",
-    "ts": "2026-03-14",
     "quotable": false
   }
 ]
