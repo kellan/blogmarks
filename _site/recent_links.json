@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://x.com/addyosmani/status/2066595308629594363?s=12",
+    "description": "Addy Osmani on agentic review",
+    "extended": "“A developer vibe-coding a side project a dozen people will ever run, and a team keeping a ten-year-old enterprise system alive for another quarter, share almost no constraints worth naming, and most of the advice in circulation is really one of those two people telling the other how to live.”",
+    "ts": "2026-09-16",
+    "quotable": true
+  },
+  {
     "url": "https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html?unlocked_article_code=1.AlE.C9EE.H2j5a1eHFUbQ&smid=nytcore-ios-share",
     "description": "Paul Ford on whither the AI software revolution",
     "extended": "“For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to practice their respective crafts. A.I. can write very good software, but it also makes it easy to do someone else’s job badly, which is part of why all those projects fail. Now that everyone can code, it’s become clearer why many shouldn’t.”",
@@ -95,13 +102,6 @@
     "description": "Suddenly, the US manufactures a ton of grid batteries | Canary Media",
     "extended": "Up from roughly zero capacity in 2024, US now on track to has capacity for 96 GWh of grid spec battery cells by end of 2026. Huge transformation, dependent on IRA as not cost competitive with China.",
     "ts": "2026-03-27",
-    "quotable": false
-  },
-  {
-    "url": "https://swamp.club/",
-    "description": "Swamp Club",
-    "extended": "AI automations framework",
-    "ts": "2026-03-24",
     "quotable": false
   }
 ]
