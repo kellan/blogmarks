@@ -1,5 +1,19 @@
 [
   {
+    "url": "https://www.poetryfoundation.org/poems/45118/england-in-1819",
+    "description": "England in 1819 - Percy Shelley",
+    "extended": "“An old, mad, blind, despised, and dying King;”",
+    "ts": "2026-11-05",
+    "quotable": false
+  },
+  {
+    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "description": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+    "extended": "If this finding that LLMs can confidently edit weights directly holds up this would be a mechanism for recursive self improvement and the biggest AI news since last Nov when the models all suddenly got good at code.",
+    "ts": "2026-11-03",
+    "quotable": false
+  },
+  {
     "url": "https://x.com/addyosmani/status/2066595308629594363?s=12",
     "description": "Addy Osmani on agentic review",
     "extended": "“A developer vibe-coding a side project a dozen people will ever run, and a team keeping a ten-year-old enterprise system alive for another quarter, share almost no constraints worth naming, and most of the advice in circulation is really one of those two people telling the other how to live.”",
@@ -88,20 +102,6 @@
     "description": "Mirage: The Illusion of Visual Understanding",
     "extended": "\"In the most extreme case, our model achieved the top rank on a standard chest X-ray question-answering benchmark without access to any images.\" —models act as “super guessers” acting on context clues, and hidden structures in the benchmarks.",
     "ts": "2026-03-29",
-    "quotable": false
-  },
-  {
-    "url": "https://archive.md/bqaNq",
-    "description": "China battery trio gain $70bn as Iran war sparks ‘paradigm shift’",
-    "extended": "Not the way we hoped the climate transition would happen.",
-    "ts": "2026-03-27",
-    "quotable": false
-  },
-  {
-    "url": "https://www.canarymedia.com/articles/clean-energy-manufacturing/us-capacity-storage-cell-factories",
-    "description": "Suddenly, the US manufactures a ton of grid batteries | Canary Media",
-    "extended": "Up from roughly zero capacity in 2024, US now on track to has capacity for 96 GWh of grid spec battery cells by end of 2026. Huge transformation, dependent on IRA as not cost competitive with China.",
-    "ts": "2026-03-27",
     "quotable": false
   }
 ]
